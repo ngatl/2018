@@ -21,29 +21,16 @@
       font-weight: 400;
     }
 
-    body nav {
-      height: 500px;
-      background-image: url("./assets/Atlanta.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    nav.navbar-light .navbar-brand {
-      color: #A6192D;
-      position: absolute;
-      top: 15px;
-      font-size: 2em;
+    .hero-img img {
+      max-height: 500px;
+      width: 100%;
     }
   </style>
 </head>
 <body>
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">ngAtlanta 2018</a>
-</nav>
+<div class="hero-img">
+  <img src="./assets/Atlanta.jpg">
+</div>
 <div class="container-fluid">
   <div class="row">
     <section class="col-md-6">
@@ -51,8 +38,8 @@
       <p>
         Founded in 2017 ngAtlanta is a conference with two focuses:
       <ol>
-      <li>Diversity and Inclusion</li>
-      <li>Angular</li>
+        <li>Diversity and Inclusion</li>
+        <li>Angular</li>
       </ol>
       One of the goals for this conference when it was originally conceived was to have at least 50% of the speakers be
       Women in Technology. This is something we are taking quite seriously. As such we are happy to announce that
