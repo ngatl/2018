@@ -7,8 +7,12 @@ import { AppComponent } from './app.component';
 import { routes } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 // Import Page Components:
-import { HomeComponent } from './home/home.component';
-import { CodeOfConductComponent } from './code-of-conduct/code-of-conduct.component';
+import { 
+  HomeComponent,
+  CodeOfConductComponent,
+  RegistrationComponent,
+  SpeakersComponent
+  } from '../pages/pages';
 
 // Import Re-usable Components:
 import { PillButtonComponent } from '../components/components';
@@ -18,6 +22,8 @@ import { PillButtonComponent } from '../components/components';
     AppComponent,
     CodeOfConductComponent,
     HomeComponent,
+    RegistrationComponent,
+    SpeakersComponent,
     PillButtonComponent
   ],
   imports: [
