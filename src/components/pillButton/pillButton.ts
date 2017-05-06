@@ -10,8 +10,6 @@ export class PillButtonComponent implements OnInit {
     @Input() color: string;
     constructor() { }
 
-    ngOnInit() {
-        console.log('hello from pill button component', this.label, this.color);
-    }
+    ngOnInit() {}
 
 }

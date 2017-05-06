@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
@@ -10,8 +10,10 @@ import { RouterModule } from '@angular/router';
 import { 
   HomeComponent,
   CodeOfConductComponent,
+  DetailsComponent,
   RegistrationComponent,
-  SpeakersComponent
+  SpeakersComponent,
+  SponsorsComponent
   } from '../pages/pages';
 
 // Import Re-usable Components:
@@ -21,9 +23,11 @@ import { PillButtonComponent } from '../components/components';
   declarations: [
     AppComponent,
     CodeOfConductComponent,
+    DetailsComponent,
     HomeComponent,
     RegistrationComponent,
     SpeakersComponent,
+    SponsorsComponent,
     PillButtonComponent
   ],
   imports: [
@@ -33,7 +37,8 @@ import { PillButtonComponent } from '../components/components';
     RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule {
 }
