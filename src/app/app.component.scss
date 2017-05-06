@@ -1,20 +1,30 @@
 @import "../variables";
 
-nav {
-  .top-nav {
+.app {
+  .social {
+    color: $white;
     height: 50px;
     background-color: $darkGray;
-    .social {
-      a, a:hover {
-        text-decoration: none;
-        color: $white;
-      }
+    a, a:hover {
+      text-decoration: none;
+      color: $white;
     }
   }
 
   .primary-nav {
-    width: 90%;
-    margin: 0 auto;
+    height: 70px;
+    padding: 10px 0;
+    text-transform: uppercase;
+
+    a, 
+    a:visited { 
+      color: $darkGray;
+    }
+
+    a:hover {
+      color: $primary;
+      cursor: pointer;
+    }
   }
 }
 

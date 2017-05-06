@@ -1,47 +1,53 @@
-<nav>
-  <div class="top-nav">
-    <div class="container">
-      <div class="social">
-        <a href="https://twitter.com/ngAtlConf" target="_blank">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a href="https://twitter.com/ngAtlConf" target="_blank">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="https://twitter.com/ngAtlConf" target="_blank">
-          <i class="fa fa-instagram"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="primary-nav row">
-    <div class="row">
+<div class='app'>
 
-    </div>
-    <div class="col-2">
-      <a routerLink="">Logo Here</a>
-    </div>
-    <div class="col-9">
-      <div class="row">
-        <div class="col-2">
-          <a routerLink="CodeOfConduct">Code Of Conduct</a>
-        </div>
-        <div class="col-2">
-          <a routerLink="Speakers">Speakers</a>
-        </div>
-        <div class="col-2">
-          <a routerLink="Registration">Registration</a>
-        </div>
-        <div class="col-2">
-          <a routerLink="Sponsors">Sponsors</a>
-        </div>
-        <div class="col-2">
-          <a routerLink="Details">Event Details</a>
+  <div class="social">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">Zack's email</div>
+        <div class="col">
+          <div class="pull-right">
+            <a href="https://twitter.com/ngAtlConf" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/ngAtlConf" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://twitter.com/ngAtlConf" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</nav>
+
+  <div class="primary-nav container">
+    <div class="row justify-content-between">
+      <div class="col-2">
+        <a routerLink=""><img src="../assets/logo.jpg" alt="" height="50"></a>
+      </div>
+      <div class="col-10">
+        <div class="row">
+          <div class="col">
+            <a routerLink="CodeOfConduct">Code Of Conduct</a>
+          </div>
+          <div class="col">
+            <a routerLink="Speakers">Speakers</a>
+          </div>
+          <div class="col">
+            <a routerLink="Registration">Registration</a>
+          </div>
+          <div class="col">
+            <a routerLink="Sponsors">Sponsors</a>
+          </div>
+          <div class="col">
+            <a routerLink="Details">Event Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="container-fluid">
   <router-outlet></router-outlet>
