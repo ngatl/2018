@@ -1,35 +1,42 @@
-# Created by .ignore support plugin (hsz.mobi)
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
 /dist
 /tmp
+/out-tsc
 
 # dependencies
 /node_modules
-/bower_components
 
 # IDEs and editors
 /.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 /.sass-cache
 /connect.lock
-/coverage/*
+/coverage
 /libpeerconnection.log
 npm-debug.log
 testem.log
 /typings
-.DS_Store
-newrelic_agent.log
-.env.local
 
 # e2e
 /e2e/*.js
 /e2e/*.map
-/.env
-/certs/server.crt
-/certs/server.csr
-/certs/server.key
-/certs/symantec-intermediate.crt
-/src/newrelic.ts
+
+# System Files
+.DS_Store
+Thumbs.db
