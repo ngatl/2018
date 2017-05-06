@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PillButtonComponent } from '../components/components';
 
 @Component({
   selector: 'app-root',

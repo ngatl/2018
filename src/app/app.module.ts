@@ -4,16 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { CodeOfConductComponent } from './code-of-conduct/code-of-conduct.component';
 import { routes } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+// Import Page Components:
 import { HomeComponent } from './home/home.component';
+import { CodeOfConductComponent } from './code-of-conduct/code-of-conduct.component';
+
+// Import Re-usable Components:
+import { PillButtonComponent } from '../components/components';
 
 @NgModule({
   declarations: [
     AppComponent,
     CodeOfConductComponent,
-    HomeComponent
+    HomeComponent,
+    PillButtonComponent
   ],
   imports: [
     BrowserModule,

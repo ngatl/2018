@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.pill {
+    background: transparent;
+    border: 1px solid $white;
+    border-radius: 25px;
+    color: $white;
+    font-size: 11px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    min-width: 150px;
+}
+
+.red {
+    background-color: $primary;
+    border: none;
+}

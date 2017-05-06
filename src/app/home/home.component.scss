@@ -1,3 +1,5 @@
+@import "../../variables";
+
 section {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -21,4 +23,26 @@ section {
   height: 150px;
   margin-bottom: 25px;
   border-radius: 50%;
+}
+.home {
+  
+  .hero {
+    color: $white;
+    background-color: navy;
+    padding: 200px;
+    margin: 0 -15px;
+  }
+
+  .www {
+    background-color: yellow;
+    border: 1px solid green;
+    margin: 5px;
+  }
+}
+
+.card {
+  padding: 20px; 
+  .card-title {
+    text-align: center;
+  }
 }
