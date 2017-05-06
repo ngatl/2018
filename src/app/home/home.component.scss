@@ -28,21 +28,8 @@ section {
   
   .hero {
     color: $white;
-    background-color: navy;
+    background-image: url('../../assets/skyline.jpg');
     padding: 200px;
     margin: 0 -15px;
-  }
-
-  .www {
-    background-color: yellow;
-    border: 1px solid green;
-    margin: 5px;
-  }
-}
-
-.card {
-  padding: 20px; 
-  .card-title {
-    text-align: center;
   }
 }
