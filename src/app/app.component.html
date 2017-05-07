@@ -2,10 +2,15 @@
 
   <div class="social">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col">Zack's email</div>
+      <div class="row">
+        <div class="contact">
+          <i class="fa fa-envelope-o"></i>
+          <a href="mailto:zack@ng-atl.com?Subject=Conf Website Inquiry" target="_top">
+            zack@ng-atl.com
+          </a>
+        </div>
         <div class="col">
-          <div class="pull-right">
+          <div class="pull-right icons">
             <a href="https://twitter.com/ngAtlConf" target="_blank">
               <i class="fa fa-facebook"></i>
             </a>
@@ -22,30 +27,15 @@
   </div>
 
   <div class="primary-nav container">
-    <div class="row justify-content-between">
-      <div class="col-2">
-        <a routerLink=""><img src="../assets/logo.jpg" alt="" height="50"></a>
-      </div>
-      <div class="col-10">
-        <div class="row">
-          <div class="col">
-            <a routerLink="CodeOfConduct">Code Of Conduct</a>
-          </div>
-          <div class="col">
-            <a routerLink="Speakers">Speakers</a>
-          </div>
-          <div class="col">
-            <a routerLink="Registration">Registration</a>
-          </div>
-          <div class="col">
-            <a routerLink="Sponsors">Sponsors</a>
-          </div>
-          <div class="col">
-            <a routerLink="Details">Event Details</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <a routerLink=""><img src="../assets/ngATL_logo.svg" alt="" height="76"></a>
+    <nav class="pull-right">
+      <a routerLink="CodeOfConduct">Code Of Conduct</a>
+      <a routerLink="Speakers">Speakers</a>
+      <a routerLink="Registration">Registration</a>
+      <a routerLink="Sponsors">Sponsors</a>
+      <a routerLink="Details">Event Details</a>
+      <pill-button label="Register Now" color="red" link="Registration"></pill-button>
+    </nav>
   </div>
 </div>
 

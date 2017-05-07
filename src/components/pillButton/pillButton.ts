@@ -6,6 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./pillButton.scss']
 })
 export class PillButtonComponent implements OnInit {
+    @Input() link: string;
     @Input() label: string;
     @Input() color: string;
     constructor() { }
