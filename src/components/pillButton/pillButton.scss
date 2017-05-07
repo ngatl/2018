@@ -7,12 +7,14 @@
     color: $white;
     display: inline-block;
     font-size: 14px;
-    padding: 15px 25px;
+    padding: 10px 25px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 700;
+
 }
 
 .red {
     background-color: $primary;
-    border: none;
+    border: 1px solid $primary;
 }
