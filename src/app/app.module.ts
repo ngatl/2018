@@ -14,10 +14,12 @@ import {
   RegistrationComponent,
   SpeakersComponent,
   SponsorsComponent
-  } from '../pages/pages';
+  } from './pages/pages';
 
 // Import Re-usable Components:
 import { PillButtonComponent } from '../components/components';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { PillButtonComponent } from '../components/components';
     RegistrationComponent,
     SpeakersComponent,
     SponsorsComponent,
-    PillButtonComponent
+    PillButtonComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

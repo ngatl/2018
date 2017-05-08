@@ -1,4 +1,4 @@
-@import "../../variables";
+@import "../../../variables";
 
 section {
   font-family: 'Lato', sans-serif;
@@ -28,7 +28,7 @@ section {
   
   .hero {
     color: $white;
-    background-image: url('../../assets/homepage_banner.jpg');
+    background-image: url('../../../assets/homepage_banner.jpg');
     padding: 200px;
     margin: 0 -15px;
 

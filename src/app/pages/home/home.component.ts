@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PillButtonComponent } from '../../components/components';
+import { PillButtonComponent } from '../../../components/components';
 
 @Component({
   selector: 'app-home',

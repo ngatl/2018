@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { PillButtonComponent } from '../../components/components';
+import { PillButtonComponent } from '../../../components/components';
 import { RegistrationComponent } from './registration.component';
 
 describe('RegistrationComponent', () => {

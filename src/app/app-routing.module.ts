@@ -6,7 +6,7 @@ import {
   RegistrationComponent,
   SpeakersComponent,
   SponsorsComponent 
-} from '../pages/pages';
+} from './pages/pages';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },

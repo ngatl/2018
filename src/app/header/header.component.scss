@@ -1,0 +1,64 @@
+@import "../../variables";
+
+.app {
+
+  font-family: sans-serif;
+  .social {
+    color: $white;
+    height: 57px;
+    background-color: $darkGray;
+    padding: 1% 0;
+
+    .contact {
+      padding: 0 20px;
+      border-right: 1px solid lightgrey;
+      border-left: 1px solid lightgray;
+
+      a, a:visited {
+        font-size: 14px;
+        color: $white;
+      }
+    }
+
+    .icons {
+
+      a, a:hover {
+        border-left: 1px solid $white;
+        text-decoration: none;
+        font-size: 13px;
+        color: $white;
+        padding: 0 15px;
+      }
+
+      a:last-child {
+        border-right: 1px solid $white;
+      }
+    }
+  }
+
+  .primary-nav {
+    height: 100px;
+    padding: 10px 0;
+    text-transform: uppercase;
+
+    nav {
+      height: 75px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      a,
+      a:visited {
+        padding: 0 20px;
+        display: inline-block;
+        color: $darkGray;
+      }
+    }
+
+    a:hover {
+      color: $primary;
+      cursor: pointer;
+    }
+  }
+}
