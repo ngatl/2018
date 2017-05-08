@@ -20,3 +20,12 @@
     color: $primary;
   }
 }
+
+.speakers-block {
+  display: flex;
+  justify-content: space-between;
+  app-speaker-card {
+    text-align: center;
+    flex: 1;
+  }
+}

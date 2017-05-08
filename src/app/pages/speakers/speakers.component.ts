@@ -18,6 +18,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Mike Brocchi',
       image: '../assets/Mike.jpg',
+      company: 'Rangle.io',
       social: {
         twitter: 'Brocco'
       }
@@ -25,6 +26,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Aysegul Yonet',
       image: '../assets/Aysegul.jpg',
+      company: 'Autodesk',
       social: {
         twitter: 'AysSomething'
       }

@@ -12,6 +12,7 @@
   display: inline-block;
   .image {
     height: 150px;
+    max-width:150px;
   }
   .name {
     text-transform: capitalize;
