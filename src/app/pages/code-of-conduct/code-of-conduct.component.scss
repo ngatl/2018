@@ -1,3 +1,32 @@
+@import "../../../variables";
+
 .coc {
   margin-top: 1em;
+  .page-title {
+    text-align: center;
+    font-size: 40px;
+    color: $darkGray;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .page-subtitle {
+    margin-top: 25px;
+    color: $medGray;
+    size: 16px;
+  }
+  .divider {
+    text-align: center;
+    span {
+      content: "";
+      display: inline-block;
+      width: 45px;
+      border-bottom: 5px solid $primary;
+    }
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .body-section {
+    color: $medGray;
+    font-size: 14px;
+  }
 }

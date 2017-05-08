@@ -28,12 +28,13 @@
   <div class="primary-nav container">
     <a routerLink=""><img src="../assets/ngATL_logo.svg" alt="" height="76"></a>
     <nav class="pull-right">
+      <a routerLink="">Home</a>
       <a routerLink="CodeOfConduct">Code Of Conduct</a>
       <a routerLink="Speakers">Speakers</a>
-      <a routerLink="Registration">Registration</a>
-      <a routerLink="Sponsors">Sponsors</a>
-      <a routerLink="Details">Event Details</a>
-      <pill-button label="Register Now" color="red" link="Registration"></pill-button>
+      <a *ngIf="false" routerLink="Registration">Registration</a>
+      <a *ngIf="false" routerLink="Sponsors">Sponsors</a>
+      <a *ngIf="false" routerLink="Details">Event Details</a>
+      <pill-button *ngIf="false" label="Register Now" color="red" link="Registration"></pill-button>
     </nav>
   </div>
 </div>
