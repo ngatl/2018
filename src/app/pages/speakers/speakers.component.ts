@@ -138,6 +138,15 @@ export class SpeakersComponent implements OnInit {
   ];
 
   constructor() {
+    this.speakers.sort(SpeakersComponent.sorting)
+  }
+
+  static sorting(a, b) {
+    if (a.name < b.name)
+      return -1;
+    if (a.name > b.name)
+      return 1;
+    return 0;
   }
 
   ngOnInit() {
