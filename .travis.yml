@@ -10,10 +10,6 @@ cache:
   directories:
     - node_modules
 
-branches:
-   only:
-      - master
-
 install:
    - npm i --silent -g @angular/cli
    - npm i --silent -g angular-cli-ghpages
@@ -21,6 +17,9 @@ install:
 script:
    - npm i --silent
    - ng build --prod --progress=false --base-href https://$GH_USER.github.io/$GH_REPO/
-   - cp dist/index.html dist/404.html
-   - echo $GH_DOMAIN > dist/CNAME
-   - ngh angular-cli-ghpages --repo=https://GH_TOKEN@github.com/$GH_USER/$GH_REPO.git --name="Travis CI" --email=travis@example.com
+
+deploy:
+  - provider: script
+    script: bin/deploy-gh-pages.sh
+    on:
+      branch: master
