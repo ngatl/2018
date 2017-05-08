@@ -1,0 +1,22 @@
+@import "../../../variables";
+
+.breadcrumb-hero {
+  text-align: center;
+  color: $white;
+  background-color: $lightGray;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  .breadcrumb-title {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .breadcrumb-links {
+    font-size: 10px;
+  }
+  a, a:hover {
+    color: $white;
+  }
+  .current {
+    color: $primary;
+  }
+}

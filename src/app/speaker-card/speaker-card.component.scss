@@ -1,0 +1,34 @@
+@import "../../variables";
+
+.card-container {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  width: 265px;
+  margin-bottom: 10px;
+  height: 275px;
+  display: inline-block;
+  .image {
+    height: 150px;
+  }
+  .name {
+    text-transform: capitalize;
+    color: $darkGray;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .company {
+    color: $lightGray;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .social {
+    a, a:hover {
+      color: $lightGray;
+      text-decoration: none;
+    }
+  }
+}

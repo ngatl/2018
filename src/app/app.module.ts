@@ -20,6 +20,8 @@ import {
 import { PillButtonComponent } from '../components/components';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { HeaderComponent } from './header/header.component';
     SponsorsComponent,
     PillButtonComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SpeakerCardComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
