@@ -24,8 +24,9 @@ section {
   margin-bottom: 25px;
   border-radius: 50%;
 }
+
 .home {
-  
+
   .hero {
     color: $white;
     background-image: url('../../../assets/homepage_banner.jpg');
@@ -43,15 +44,13 @@ section {
     }
   }
 
-
-
   .header {
     h1 {
       margin-top: 100px;
       font-size: 40px;
       font-weight: 800;
     }
-    
+
     .separator {
       width: 45px;
       height: 5px;
@@ -135,17 +134,40 @@ section {
 
     .right {
       padding: 75px 0;
+      padding-top: 45px;
       display: flex;
       flex-direction: column;
     }
 
     input {
+      width: 275px;
       margin-bottom: 15px;
       border-radius: 25px;
       padding: 10px 25px;
       font-size: 14px;
       color: $lightGray;
       font-style: italic;
+    }
+
+    .submit-button {
+      border-radius: 25px;
+      color: $white;
+      display: inline-block;
+      font-size: 14px;
+      padding: 10px 25px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      background-color: $primary;
+      border: 1px solid $primary;
+      &[disabled] {
+        background-color: $medGray;
+        border-color: $lightGray;
+        cursor: not-allowed;
+      }
+    }
+    .mcSubmitMessage {
+      color: $lightGray;
     }
   }
 }

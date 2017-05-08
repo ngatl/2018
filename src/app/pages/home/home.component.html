@@ -2,8 +2,8 @@
 
   <div class="hero">
     <div class="container">
-      <h2>Diversity in Technology</h2>
-      <h1>2018 ngATL CONFERENCE<br />ATLANTA, GA</h1>
+      <h1>2018 ngATL CONFERENCE<br/>ATLANTA, GA</h1>
+      <h2>Diversity, Inclusion and Angular</h2>
       <h3>JAN 30 - FEB 2, 2018</h3>
       <pill-button label="Register Now" color="red" link="Registration"></pill-button>
       <pill-button label="Become a Sponsor" color="clear" link="Sponsors"></pill-button>
@@ -28,7 +28,7 @@
       <div class="col"><!-- When -->
         <i class="fa fa-calendar"></i>
         <h2>When</h2>
-        <p>          
+        <p>
           January 30-31 (Workshops)<br>
           Feburary 1-2 (Conference)
         </p>
@@ -42,11 +42,11 @@
           (470) 588-1075
         </p>
       </div>
-    <div class="col-12">
-      <pill-button label="Learn More" color="red" link=""></pill-button>
+      <div class="col-12">
+        <pill-button label="Learn More" color="red" link=""></pill-button>
+      </div>
     </div>
   </div>
-</div>
 
   <div class="email">
     <div class="container">
@@ -54,14 +54,22 @@
         <div class="left col-8">
           <h1>Stay up to date...</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed viverra mauris. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed viverra mauris.
             Praesent velit eros, convallis vitae lorem eu, ornare vestibulum mauris.
           </p>
         </div>
         <div class="right col-4">
-          <input type="text" placeholder="First name, last name...">
-          <input type="text" placeholder="Enter email...">
-          <pill-button label="Subscribe" color="red"></pill-button>
+          <form (ngSubmit)="submitMailChimp()" #mailChimp>
+            <input type="text" name="FNAME" placeholder="First Name" [(ngModel)]="signup.FNAME" required>
+            <input type="text" name="LNAME" placeholder="Last Name" [(ngModel)]="signup.LNAME" required>
+            <input type="email" name="EMAIL" placeholder="Enter Email" [(ngModel)]="signup.EMAIL" required>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_0b058da04fc0ba7ae956cb672_b623efabaf"
+                     [(ngModel)]="signup.b_0b058da04fc0ba7ae956cb672_b623efabaf" tabindex="-1">
+            </div>
+            <button *ngIf="showMCSubmit" class="submit-button" type="submit" [disabled]="mcSubmitted">Subscribe</button>
+            <div *ngIf="!showMCSubmit" class="mcSubmitMessage">{{message}}</div>
+          </form>
         </div>
       </div>
     </div>
@@ -83,7 +91,9 @@
           {{ sponsor.level }}
         </div>
       </div>
-    <div class="col-12">
-      <pill-button label="Become a Sponsor" color="red" link="Sponsors"></pill-button>
+      <div class="col-12">
+        <pill-button label="Become a Sponsor" color="red" link="Sponsors"></pill-button>
+      </div>
     </div>
   </div>
+</div>
