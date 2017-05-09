@@ -31,8 +31,25 @@ section {
     color: $white;
     background-image: url('../../../assets/homepage_banner.jpg');
     padding: 200px;
-    margin: 0 -15px;
-
+    @media only screen and (max-width: 768px) {
+      padding: 25px;
+      padding-top: 25px;
+      padding-left: 25px;
+      background-size: cover;
+      height: 300px;
+      .container {
+        h1 {
+          font-size: 28px;
+          margin: 5px 0;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        h3 {
+          font-size: 22px;
+        }
+      }
+    }
     h1 {
       font-size: 66px;
       font-weight: 700;
@@ -45,9 +62,16 @@ section {
   }
 
   .header {
+    @media only screen and (max-width: 768px) {
+      div {
+        h1 {
+          margin-top: 40px;
+        }
+      }
+    }
     h1 {
       margin-top: 100px;
-      font-size: 40px;
+      font-size: 24px;
       font-weight: 800;
     }
 
@@ -112,9 +136,15 @@ section {
 
   .email {
     height: 300px;
-    margin: 100px -15px 0;
     background-color: $gray;
-
+    @media only screen and (max-width: 768px) {
+      height: 530px;
+      .row {
+        .left, .right {
+          padding: 30px;
+        }
+      }
+    }
     .left {
       padding: 100px 100px 0 0;
 
@@ -141,6 +171,9 @@ section {
 
     input {
       width: 275px;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
       margin-bottom: 15px;
       border-radius: 25px;
       padding: 10px 25px;
@@ -169,6 +202,9 @@ section {
 }
 
 .red-button {
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
   border-radius: 25px;
   color: $white;
   display: inline-block;

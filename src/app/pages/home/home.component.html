@@ -13,39 +13,42 @@
   </div>
 
   <div class="container">
-    <div class="header row text-center">
-      <div class="col-12">
+    <div class="header text-center">
+      <div>
         <h1>About ng-ATL</h1>
         <div class="separator"></div>
         <!--<span>We'll put some at-a-glance information here.</span>-->
       </div>
-      <div class="col"><!-- What -->
-        <i class="fa fa-bullhorn"></i>
-        <h2>What</h2>
-        <p>
-          1st annual Angular conference in Atlanta, GA<br>
-          focused on diversity in technology.
-        </p>
-      </div>
-      <div class="col"><!-- When -->
-        <i class="fa fa-calendar"></i>
-        <h2>When</h2>
-        <p>
-          January 30-31 (Workshops)<br>
-          Feburary 1-2 (Conference)
-        </p>
-      </div>
-      <div class="col"><!-- Where -->
-        <i class="fa fa-map-marker"></i>
-        <h2>Where</h2>
-        <p>
-          The Hotel at Avalon<br>
-          9000 Avalon Blvd., Alpharetta GA 30009<br>
-          (470) 588-1075
-        </p>
-      </div>
-      <div class="col-12">
-        <!--<pill-button label="Learn More" color="red" link=""></pill-button>-->
+      <div class="row">
+
+        <div class="col-sm-12 col-md-6">
+          <i class="fa fa-bullhorn"></i>
+          <h2>What</h2>
+          <p>
+            1st annual Angular conference in Atlanta, GA<br>
+            focused on diversity in technology.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <i class="fa fa-calendar"></i>
+          <h2>When</h2>
+          <p>
+            January 30-31 (Workshops)<br>
+            Feburary 1-2 (Conference)
+          </p>
+        </div>
+        <div class="col-sm-12">
+          <i class="fa fa-map-marker"></i>
+          <h2>Where</h2>
+          <p>
+            The Hotel at Avalon<br>
+            9000 Avalon Blvd., Alpharetta GA 30009<br>
+            (470) 588-1075
+          </p>
+        </div>
+        <div class="col-12">
+          <!--<pill-button label="Learn More" color="red" link=""></pill-button>-->
+        </div>
       </div>
     </div>
   </div>
@@ -53,14 +56,15 @@
   <div class="email">
     <div class="container">
       <div class="row">
-        <div class="left col-8">
+        <div class="left col-sm-12 col-md-8">
           <h1>Stay up to date...</h1>
           <p>
-            Take a moment to subscribe to our mailing list.  We will make sure to keep you up to date on everything ngAtl.
+            Take a moment to subscribe to our mailing list. We will make sure to keep you up to date on everything
+            ngAtl.
             Also we will respect your personal information, it will not be shared with anyone.
           </p>
         </div>
-        <div class="right col-4">
+        <div class="right col-sm-12 col-md-4">
           <form (ngSubmit)="submitMailChimp()" #mailChimp>
             <input type="text" name="FNAME" placeholder="First Name" [(ngModel)]="signup.FNAME" required>
             <input type="text" name="LNAME" placeholder="Last Name" [(ngModel)]="signup.LNAME" required>
@@ -86,18 +90,18 @@
         <!--<span>Just a few of our premium sponsors...</span>-->
       </div>
       <!--<div class="col-3 card" *ngFor="let sponsor of sponsors">-->
-        <!--<img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">-->
-        <!--<div class="title">-->
-          <!--{{ sponsor.name }}-->
-        <!--</div>-->
-        <!--<div class="caption">-->
-          <!--{{ sponsor.level }}-->
-        <!--</div>-->
+      <!--<img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">-->
+      <!--<div class="title">-->
+      <!--{{ sponsor.name }}-->
+      <!--</div>-->
+      <!--<div class="caption">-->
+      <!--{{ sponsor.level }}-->
+      <!--</div>-->
       <!--</div>-->
       <div class="col-12">
         <a class="red-button"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
-          target="_blank">Become a Sponsor</a>
+           href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
+           target="_blank">Become a Sponsor</a>
       </div>
     </div>
   </div>

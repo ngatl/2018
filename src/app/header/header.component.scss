@@ -6,6 +6,9 @@
   .social {
     color: $white;
     height: 57px;
+    @media only screen and (max-width: 768px) {
+      height: 30px;
+    }
     background-color: $darkGray;
     padding: 1% 0;
 
@@ -40,7 +43,9 @@
     height: 100px;
     padding: 10px 0;
     text-transform: uppercase;
-
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
     nav {
       height: 75px;
       display: flex;
