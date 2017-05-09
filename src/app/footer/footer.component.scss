@@ -1,0 +1,42 @@
+@import '../../variables';
+
+footer {
+  margin-top: 100px;
+  background-color: $darkGray;
+  text-align: center;
+  .logo-row {
+    padding-top: 50px;
+    .logo {
+      height: 80px;
+    }
+  }
+  .coc-row {
+    padding-top: 50px;
+    a, a:hover {
+      font-size: 16px;
+      color: $primary;
+      text-decoration: underline;
+    }
+  }
+  .copy-row {
+    padding-top: 10px;
+    font-size: 13px;
+    color: $lightGray;
+  }
+  .social-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .fa-stack {
+      font-size: 30px;
+      &:not(:first-of-type) {
+        &:not(:last-of-type) {
+          padding-left: 40px;
+          padding-right: 40px;
+        }
+      }
+    }
+    .fa-circle {
+      color: $lightGray;
+    }
+  }
+}

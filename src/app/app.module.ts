@@ -1,28 +1,53 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, JsonpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { CodeOfConductComponent } from './code-of-conduct/code-of-conduct.component';
 import { routes } from './app-routing.module';
 import { RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+// Import Page Components:
+import { 
+  HomeComponent,
+  CodeOfConductComponent,
+  DetailsComponent,
+  RegistrationComponent,
+  SpeakersComponent,
+  SponsorsComponent
+  } from './pages/pages';
+
+// Import Re-usable Components:
+import { PillButtonComponent } from '../components/components';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CodeOfConductComponent,
-    HomeComponent
+    DetailsComponent,
+    HomeComponent,
+    RegistrationComponent,
+    SpeakersComponent,
+    SponsorsComponent,
+    PillButtonComponent,
+    FooterComponent,
+    HeaderComponent,
+    SpeakerCardComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    JsonpModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule {
 }
