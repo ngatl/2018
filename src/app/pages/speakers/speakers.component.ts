@@ -50,7 +50,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Tara Manicsic',
       image: '../assets/Tara.jpg',
-      company: '',
+      company: 'Progress',
       social: {
         twitter: 'Tzmanics'
       }
@@ -90,7 +90,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Kim Crayton',
       image: '../assets/KimCrayton.jpg',
-      company: '',
+      company: 'Kim Crayton LLC',
       social: {
         twitter: 'KimCrayton1'
       }
@@ -98,7 +98,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Shai Reznik',
       image: '../assets/Shai.jpg',
-      company: '',
+      company: 'HiRez.io',
       social: {
         twitter: 'shai_reznik'
       }
@@ -114,7 +114,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'April Wensel',
       image: '../assets/April.jpg',
-      company: '',
+      company: 'Compassionate Coding',
       social: {
         twitter: 'aprilwensel'
       }
@@ -122,7 +122,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Susan Goldblatt',
       image: '../assets/Susan.jpg',
-      company: '',
+      company: 'Google',
       social: {
         twitter: 'thatgoldblatt'
       }
@@ -133,6 +133,22 @@ export class SpeakersComponent implements OnInit {
       company: '',
       social: {
         twitter: 'kapunahele'
+      }
+    },
+    {
+      name: 'Dmitriy Shekhovtsov',
+      image: '../assets/Dmitri.jpg',
+      company: 'Valor Software',
+      social: {
+        twitter: 'valorkin'
+      }
+    },
+    {
+      name: 'Bonnie Brennan',
+      image: '../assets/Bonnie.jpg',
+      company: '',
+      social: {
+        twitter: 'bonnster75'
       }
     }
   ];

@@ -149,25 +149,39 @@ section {
       font-style: italic;
     }
 
-    .submit-button {
-      border-radius: 25px;
-      color: $white;
-      display: inline-block;
-      font-size: 14px;
-      padding: 10px 25px;
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: 700;
-      background-color: $primary;
-      border: 1px solid $primary;
-      &[disabled] {
-        background-color: $medGray;
-        border-color: $lightGray;
-        cursor: not-allowed;
-      }
-    }
     .mcSubmitMessage {
       color: $lightGray;
     }
+  }
+}
+
+.outline-button {
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid $white;
+  color: $white;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.red-button {
+  border-radius: 25px;
+  color: $white;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: $primary;
+  border: 1px solid $primary;
+  &[disabled] {
+    background-color: $medGray;
+    border-color: $lightGray;
+    cursor: not-allowed;
   }
 }

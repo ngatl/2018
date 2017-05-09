@@ -5,8 +5,10 @@
       <h1>2018 ngATL CONFERENCE<br/>ATLANTA, GA</h1>
       <h2>Diversity, Inclusion and Angular</h2>
       <h3>JAN 30 - FEB 2, 2018</h3>
-      <pill-button label="Register Now" color="red" link="Registration"></pill-button>
-      <pill-button label="Become a Sponsor" color="clear" link="Sponsors"></pill-button>
+      <!--<pill-button label="Register Now" color="red" link="Registration"></pill-button>-->
+      <a class="outline-button"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
+         target="_blank">Become a Sponsor</a>
     </div>
   </div>
 
@@ -15,7 +17,7 @@
       <div class="col-12">
         <h1>About ng-ATL</h1>
         <div class="separator"></div>
-        <span>We'll put some at-a-glance information here.</span>
+        <!--<span>We'll put some at-a-glance information here.</span>-->
       </div>
       <div class="col"><!-- What -->
         <i class="fa fa-bullhorn"></i>
@@ -43,7 +45,7 @@
         </p>
       </div>
       <div class="col-12">
-        <pill-button label="Learn More" color="red" link=""></pill-button>
+        <!--<pill-button label="Learn More" color="red" link=""></pill-button>-->
       </div>
     </div>
   </div>
@@ -54,8 +56,8 @@
         <div class="left col-8">
           <h1>Stay up to date...</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed viverra mauris.
-            Praesent velit eros, convallis vitae lorem eu, ornare vestibulum mauris.
+            Take a moment to subscribe to our mailing list.  We will make sure to keep you up to date on everything ngAtl.
+            Also we will respect your personal information, it will not be shared with anyone.
           </p>
         </div>
         <div class="right col-4">
@@ -67,7 +69,7 @@
               <input type="text" name="b_0b058da04fc0ba7ae956cb672_b623efabaf"
                      [(ngModel)]="signup.b_0b058da04fc0ba7ae956cb672_b623efabaf" tabindex="-1">
             </div>
-            <button *ngIf="showMCSubmit" class="submit-button" type="submit" [disabled]="mcSubmitted">Subscribe</button>
+            <button *ngIf="showMCSubmit" class="red-button" type="submit" [disabled]="mcSubmitted">Subscribe</button>
             <div *ngIf="!showMCSubmit" class="mcSubmitMessage">{{message}}</div>
           </form>
         </div>
@@ -80,19 +82,22 @@
       <div class="col-12">
         <h1>Our Sponsors</h1>
         <div class="separator"></div>
-        <span>Just a few of our premium sponsors...</span>
+        <span>Sponsor list coming soon...</span>
+        <!--<span>Just a few of our premium sponsors...</span>-->
       </div>
-      <div class="col-3 card" *ngFor="let sponsor of sponsors">
-        <img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">
-        <div class="title">
-          {{ sponsor.name }}
-        </div>
-        <div class="caption">
-          {{ sponsor.level }}
-        </div>
-      </div>
+      <!--<div class="col-3 card" *ngFor="let sponsor of sponsors">-->
+        <!--<img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">-->
+        <!--<div class="title">-->
+          <!--{{ sponsor.name }}-->
+        <!--</div>-->
+        <!--<div class="caption">-->
+          <!--{{ sponsor.level }}-->
+        <!--</div>-->
+      <!--</div>-->
       <div class="col-12">
-        <pill-button label="Become a Sponsor" color="red" link="Sponsors"></pill-button>
+        <a class="red-button"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
+          target="_blank">Become a Sponsor</a>
       </div>
     </div>
   </div>
