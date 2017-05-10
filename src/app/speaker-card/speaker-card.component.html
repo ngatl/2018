@@ -3,7 +3,7 @@
   <div class="name">{{speaker.name}}</div>
   <div class="company">{{speaker.company}}</div>
   <div class="social">
-    <a *ngIf="speaker.social && speaker.social.twitter" [href]="'https://twitter.com/'+speaker.social.twitter">
+    <a *ngIf="speaker.social && speaker.social.twitter" target="_blank" [href]="'https://twitter.com/'+speaker.social.twitter">
       <i class="fa fa-twitter"></i>
     </a>
   </div>
