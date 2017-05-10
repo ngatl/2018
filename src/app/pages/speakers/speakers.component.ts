@@ -166,6 +166,22 @@ export class SpeakersComponent implements OnInit {
       social: {
         twitter: 'Aimee_Knight'
       }
+    },
+    {
+      name: 'Brandon Roberts',
+      image: '../assets/Brandon.jpg',
+      company: '',
+      social: {
+        twitter: 'brandontroberts'
+      }
+    },
+    {
+      name: 'Shmuela Jacobs',
+      image: '../assets/Shmuela.jpg',
+      company: '',
+      social: {
+        twitter: 'ShmuelaJ'
+      }
     }
   ];
 
