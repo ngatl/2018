@@ -198,8 +198,39 @@ export class SpeakersComponent implements OnInit {
       social: {
         twitter: 'John_Papa'
       }
+    },
+    {
+      name: 'Meredith Bayne',
+      image: '../assets/Meredith.jpg',
+      company: '',
+      social: {
+        twitter: 'meredithjordyn'
+      }
+    },
+    {
+      name: 'Rachita Joshi',
+      image: '../assets/Rachita.jpg',
+      company: '',
+      social: {
+        twitter: 'way2rach'
+      }
+    },
+    {
+      name: 'Scott Hanselman',
+      image: '../assets/Scott.jpg',
+      company: '',
+      social: {
+        twitter: 'shanselman'
+      }
+    },
+    {
+      name: 'John McSwain',
+      image: '../assets/JohnMcSwain.jpg',
+      company: '',
+      social: {
+        twitter: 'johnmcswain'
+      }
     }
-
   ];
 
   constructor() {

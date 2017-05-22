@@ -10,6 +10,8 @@ export class SpeakerCardComponent implements OnInit {
   @Input()
   speaker;
 
+  showDetails: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
