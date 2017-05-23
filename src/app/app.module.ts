@@ -18,10 +18,9 @@ import {
   } from './pages/pages';
 
 // Import Re-usable Components:
-import { PillButtonComponent } from '../components/components';
+import { PillButtonComponent , SpeakerCardComponent , SpeakerDetailComponent } from '../components/components';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 @NgModule({
@@ -31,6 +30,8 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
     DetailsComponent,
     HomeComponent,
     RegistrationComponent,
+    SpeakerCardComponent,
+    SpeakerDetailComponent,
     SpeakersComponent,
     SponsorsComponent,
     PillButtonComponent,

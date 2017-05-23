@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import { SpeakerDetailComponent, SpeakerCardComponent } from '../../../components/components';
 
 @Component({
   selector: 'app-speakers',
@@ -6,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [ './speakers.component.scss' ]
 })
 export class SpeakersComponent implements OnInit {
+  @Output() selectedSpeaker: any;
+
+  showDetail(speaker){
+    console.log('speaker selected: ', speaker.name);
+    this.selectedSpeaker = speaker;
+  }
+
+  dismissOverlay(){
+    console.log('dismiss overlay from parent');
+    this.selectedSpeaker = null;
+  }
+  
   speakers: Array<any> = [
     {
       name: 'Simona Cotin',

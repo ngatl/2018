@@ -3,5 +3,6 @@
   <div class="breadcrumb-links"><a routerLink="">HOME / </a><span class="current">SPEAKERS</span></div>
 </div>
 <div class="speakers-block">
-  <app-speaker-card *ngFor="let speaker of speakers" [speaker]="speaker"></app-speaker-card>
+  <app-speaker-card *ngFor="let speaker of speakers" [speaker]="speaker" (click)='showDetail(speaker)'></app-speaker-card>
 </div>
+<speaker-detail-overlay *ngIf='selectedSpeaker' [selectedSpeaker]='selectedSpeaker' (dismissed)='dismissOverlay()'></speaker-detail-overlay>
