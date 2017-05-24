@@ -1,0 +1,21 @@
+<div class="card-container" (click)="showDetails = !showDetails">
+  <img class="image" [src]="speaker.image">
+  <div class="name">{{speaker.name}}</div>
+  <div class="company">{{speaker.company}}</div>
+  <div class="social">
+    <!--I took out the "&& speaker.social.facebook" part so the icon will show up. 
+    When you add those other social medias, that will be put back.-->
+    <a *ngIf="speaker.social" target="_blank" [href]="'https://facebook.com/'+speaker.social.facebook">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a *ngIf="speaker.social && speaker.social.twitter" target="_blank" [href]="'https://twitter.com/'+speaker.social.twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <a *ngIf="speaker.social" target="_blank" [href]="'https://google.com/'+speaker.social.google">
+      <i class="fa fa-google-plus"></i>
+    </a>
+    <a *ngIf="speaker.social" target="_blank" [href]="'https://youtube.com/'+speaker.social.youtube">
+      <i class="fa fa-youtube"></i>
+    </a>
+  </div>
+</div>
