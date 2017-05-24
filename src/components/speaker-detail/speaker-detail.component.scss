@@ -1,3 +1,4 @@
+//black overlay
 .speaker-detail-overlay {
     position: fixed;
     background-color: rgba(0, 0, 0, .8);
@@ -5,19 +6,31 @@
     width: 100%;
     top: 1px;
 
-    .speaker-detail-card {
+//white card
+    .speaker-detail-container {
+        display: inline-block;
         position: fixed;
         background-color: white;
-        height: 50%;
-        width: 50%;
-        left: 25%;
-        top: 25%;
-        opacity: 80%;
+        border-radius: 5px;
+        padding: 100px;
+        height: 605px;
+        width: 1000px;
+        left: 20%;
+        top: 20%;
+        right: 20%;
+        bottom: 20%;
 
+//little x
         .fa-close::before {
         position: relative;
         top: 1px;
         right: 1px;
+
         }
+    }
+
+    .bio{
+        float: right;
+        padding: 100px;
     }
 }

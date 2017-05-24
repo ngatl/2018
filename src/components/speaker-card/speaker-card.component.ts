@@ -7,8 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SpeakerCardComponent implements OnInit {
 
-  @Input()
-  speaker;
+  @Input() speaker;
+  @Input() containerClass;
 
   showDetails: boolean = false;
 

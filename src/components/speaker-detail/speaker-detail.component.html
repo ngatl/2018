@@ -1,9 +1,12 @@
 <div class="speaker-detail-overlay" (click)="dismiss()">
-    <div class="speaker-detail-card">
+    <div class="speaker-detail-container">
         <i class="fa fa-close pull-right"></i>
-        Hello World!
-        {{ selectedSpeaker | json }}<br />
-        {{ selectedSpeaker.name }}
+                <app-speaker-card [containerClass]="'selected'"[speaker]="selectedSpeaker"></app-speaker-card>
+
+                <div class="bio">
+                    <p>BIO GOES HERE!</p>
+                </div>
+            
     </div>
 
 </div>

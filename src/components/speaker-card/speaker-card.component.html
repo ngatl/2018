@@ -1,4 +1,4 @@
-<div class="card-container" (click)="showDetails = !showDetails">
+<div class="card-container" [ngClass]='containerClass' (click)="showDetails = !showDetails">
   <img class="image" [src]="speaker.image">
   <div class="name">{{speaker.name}}</div>
   <div class="company">{{speaker.company}}</div>
