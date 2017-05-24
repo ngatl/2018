@@ -12,7 +12,6 @@ import {
   HomeComponent,
   CodeOfConductComponent,
   DetailsComponent,
-  RegistrationComponent,
   SpeakersComponent,
   SponsorsComponent
   } from './pages/pages';
@@ -30,7 +29,6 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
     CodeOfConductComponent,
     DetailsComponent,
     HomeComponent,
-    RegistrationComponent,
     SpeakersComponent,
     SponsorsComponent,
     PillButtonComponent,
