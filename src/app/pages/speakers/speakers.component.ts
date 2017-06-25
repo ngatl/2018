@@ -66,10 +66,12 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Sherry List',
       image: '../assets/Sherry.jpg',
-      company: '',
+      company: 'Nordea',
       social: {
-        twitter: 'sherrylist'
-      }
+        twitter: 'sherrylist',
+        linkedin: 'shahrzadazimi'
+      },
+      bio: 'Sherry is a front-end developer based in beautiful Copenhagen with over 10 years of experience in software engineering. She is also co-organizer of ngCopenhagen, GDG Copenhagen and ngVikings. She loves animals and supports many animal protection organisations.'
     },
     {
       name: 'Patrick Stapleton',
@@ -196,8 +198,11 @@ export class SpeakersComponent implements OnInit {
       image: '../assets/John.jpg',
       company: '',
       social: {
-        twitter: 'John_Papa'
-      }
+        twitter: 'John_Papa',
+        github: 'johnpapa',
+        linkedin: 'papajohn'
+      },
+      bio: 'John Papa is dedicated a father and husband, a Principal Developer Advocate with Microsoft, and an alumni of the Google Developer Expert, Microsoft RD and MVP programs. His passions are deploying and teaching modern web technologies, and enjoying everything Disney with his family. John is a co-host of the popular Adventures in Angular podcast, author of the Angular Style Guide, and many popular Pluralsight courses.'
     },
     {
       name: 'Meredith Bayne',

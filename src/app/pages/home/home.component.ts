@@ -31,7 +31,6 @@ export class HomeComponent implements OnInit {
       .subscribe((mcResult: MailChimpResult) => {
       this.showMCSubmit = false;
         if (mcResult.result === 'error') {
-          debugger
           if (mcResult.msg.indexOf('already subscribed') > -1) {
             this.message = 'You\'ve already subscribed. Please check your email.';
           }
@@ -45,10 +44,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.sponsors = [
-      {name: 'Company Name', level: 'Sponsor Level', image: 'placeholder.jpg'},
-      {name: 'Company Name', level: 'Sponsor Level', image: 'placeholder.jpg'},
-      {name: 'Company Name', level: 'Sponsor Level', image: 'placeholder.jpg'},
-      {name: 'Company Name', level: 'Sponsor Level', image: 'placeholder.jpg'}
+      {name: 'GitHub', level: 'Diversity Supporter', image: '/sponsors/GitHub_Logo.png'}
     ];
   }
 

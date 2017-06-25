@@ -5,7 +5,7 @@
       <h1>2018 ngATL Conference<br/>Atlanta, GA</h1>
       <h2>Diversity, Inclusion and Angular</h2>
       <h3>JAN 30 - FEB 2, 2018</h3>
-      <!--<pill-button label="Register Now" color="red" link="Registration"></pill-button>-->
+      <a class="red-button" href="https://ti.to/ngatlconf/ngatl-2018" target="_blank">Register Now</a>
       <a class="outline-button"
          href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
          target="_blank">Become a Sponsor</a>
@@ -86,22 +86,25 @@
       <div class="col-12">
         <h1>Our Sponsors</h1>
         <div class="separator"></div>
-        <span>Sponsor list coming soon...</span>
+        <span class="subtitle">More, coming soon...</span>
         <!--<span>Just a few of our premium sponsors...</span>-->
       </div>
-      <!--<div class="col-3 card" *ngFor="let sponsor of sponsors">-->
-      <!--<img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">-->
-      <!--<div class="title">-->
-      <!--{{ sponsor.name }}-->
-      <!--</div>-->
-      <!--<div class="caption">-->
-      <!--{{ sponsor.level }}-->
-      <!--</div>-->
-      <!--</div>-->
+      <div class="col-3 card" *ngFor="let sponsor of sponsors">
+        <div class="image-container">
+          <img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">
+        </div>
+        <div class="title">
+          {{ sponsor.name }}
+        </div>
+        <div class="caption">
+          {{ sponsor.level }}
+        </div>
+      </div>
       <div class="col-12">
         <a class="red-button"
            href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
            target="_blank">Become a Sponsor</a>
+        <!--<a class="red-button" routerLink="Sponsors">See All Sponsors</a>-->
       </div>
     </div>
   </div>

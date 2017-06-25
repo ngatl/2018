@@ -87,6 +87,9 @@ section {
       font-size: 24px;
       font-weight: 500;
       margin-bottom: 100px;
+      &.subtitle {
+        margin-bottom: 20px;
+      }
     }
 
     i {
@@ -112,11 +115,17 @@ section {
       border: none;
       margin-bottom: 50px;
 
-      img {
+      .image-container {
         box-shadow: 0 0 10px $lightGray;
         height: 270px;
         width: 265px;
         margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+        }
       }
 
       .title {
