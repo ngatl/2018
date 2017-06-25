@@ -26,9 +26,17 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Aysegul Yonet',
       image: '../assets/Aysegul.jpg',
-      company: 'Autodesk',
+      company: '',
       social: {
         twitter: 'AysSomething'
+      }
+    },
+    {
+      name: 'Brad Green',
+      image: '../assets/Brad.jpg',
+      company: 'Google',
+      social: {
+        twitter: 'bradlygreen'
       }
     },
     {
@@ -84,7 +92,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Vanessa Yuenn',
       image: '../assets/Vanessa.jpg',
-      company: '',
+      company: 'GitHub',
       social: {
         twitter: 'vanessayuenn'
       }
@@ -188,15 +196,23 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Jules Kremer',
       image: '../assets/Jules.jpg',
-      company: '',
+      company: 'Google',
       social: {
         twitter: 'jules_kremer'
       }
     },
     {
+      name: 'Jennifer Bland',
+      image: '../assets/JenniferBland.jpg',
+      company: 'Stanley Black & Decker',
+      social: {
+        twitter: 'ratracegrad'
+      }
+    },
+    {
       name: 'John Papa',
       image: '../assets/John.jpg',
-      company: '',
+      company: 'Microsoft',
       social: {
         twitter: 'John_Papa',
         github: 'johnpapa',
@@ -215,7 +231,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Rachita Joshi',
       image: '../assets/Rachita.jpg',
-      company: '',
+      company: 'VMWare',
       social: {
         twitter: 'way2rach'
       }
@@ -223,7 +239,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'Scott Hanselman',
       image: '../assets/Scott.jpg',
-      company: '',
+      company: 'Microsoft',
       social: {
         twitter: 'shanselman'
       }
@@ -231,7 +247,7 @@ export class SpeakersComponent implements OnInit {
     {
       name: 'John McSwain',
       image: '../assets/JohnMcSwain.jpg',
-      company: '',
+      company: 'Georgia Tech Professional Ed.',
       social: {
         twitter: 'johnmcswain'
       }
