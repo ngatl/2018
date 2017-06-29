@@ -1,30 +1,22 @@
-@import "../variables";
-
 .main-content {
-  flex: 1;
-}
+  flex: 1; }
 
 section {
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 .hero-img img {
   max-height: 500px;
-  width: 100%;
-}
+  width: 100%; }
 
 .speakers {
   margin-top: 30px;
-  margin-bottom: 45px;
-}
+  margin-bottom: 45px; }
 
 .speaker-images {
-  text-align: center;
-}
+  text-align: center; }
 
 .speaker-images img {
   height: 150px;
   margin-bottom: 25px;
-  border-radius: 50%;
-}
+  border-radius: 50%; }

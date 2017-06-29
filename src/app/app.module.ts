@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { routes } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 // Import Page Components:
-import { 
+import {
   HomeComponent,
   CodeOfConductComponent,
   DetailsComponent,
@@ -38,7 +38,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
     BreadcrumbComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'ng-atl'}),
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,
