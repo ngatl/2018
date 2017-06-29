@@ -4,12 +4,13 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "prestart": "ng build --prod && gulp before:ngc && ngc && gulp after:ngc",
-    "start": "ts-node src/server.ts",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "prestart:universal": "ng build --prod && gulp before:ngc && ngc && gulp after:ngc",
+    "start:universal": "ts-node src/server.ts"
   },
   "private": true,
   "dependencies": {
