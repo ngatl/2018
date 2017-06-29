@@ -41,7 +41,7 @@ import { WorkshopsService } from './workshops.service';
     WorkshopsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'ng-atl'}),
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,

@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "prestart": "ng build --prod && gulp before:ngc && ngc && gulp after:ngc",
+    "start": "ts-node src/server.ts",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +25,11 @@
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
