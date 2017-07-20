@@ -1,38 +1,29 @@
-@import "../../../variables";
-
 .breadcrumb-hero {
   text-align: center;
-  color: $white;
-  background-color: $lightGray;
+  color: #ffffff;
+  background-color: #ababab;
   padding-top: 70px;
-  padding-bottom: 70px;
-  .breadcrumb-title {
+  padding-bottom: 70px; }
+  .breadcrumb-hero .breadcrumb-title {
     font-size: 30px;
-    padding-bottom: 5px;
-  }
-  .breadcrumb-links {
-    font-size: 10px;
-  }
-  a, a:hover {
-    color: $white;
-  }
-  .current {
-    color: $primary;
-  }
-}
+    padding-bottom: 5px; }
+  .breadcrumb-hero .breadcrumb-links {
+    font-size: 10px; }
+  .breadcrumb-hero a, .breadcrumb-hero a:hover {
+    color: #ffffff; }
+  .breadcrumb-hero .current {
+    color: #b62c31; }
 
 .speakers-block {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  app-speaker-card {
+  justify-content: space-between; }
+  .speakers-block app-speaker-card {
     cursor: pointer;
     text-align: center;
-    @media only screen and (max-width: 768px) {
-      width: calc(100% - 10px - 1px);
-    }
     width: calc(100% * (1 / 4) - 10px - 1px);
-    flex-grow: 1;
-  }
-}
+    flex-grow: 1; }
+    @media only screen and (max-width: 768px) {
+      .speakers-block app-speaker-card {
+        width: calc(100% - 10px - 1px); } }

@@ -32,6 +32,6 @@ app.get('*', (req, res) => {
   res.render('index', { req });
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`listening on http://localhost:${PORT}!`);
 });

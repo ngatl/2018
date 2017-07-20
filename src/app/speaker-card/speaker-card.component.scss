@@ -1,5 +1,3 @@
-@import "../../variables";
-
 .card-container {
   padding-top: 25px;
   padding-left: 25px;
@@ -9,38 +7,29 @@
   width: 265px;
   margin-bottom: 10px;
   height: 325px;
-  display: inline-block;
-  &:hover {
+  display: inline-block; }
+  .card-container:hover {
     border: 1px solid #acacac;
     padding-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 24px;
-  }
-
-  .image {
+    padding-bottom: 24px; }
+  .card-container .image {
     height: 200px;
-    max-width: 200px;
-  }
-  .name {
+    max-width: 200px; }
+  .card-container .name {
     text-transform: capitalize;
-    color: $darkGray;
+    color: #222222;
     margin-top: 15px;
     margin-bottom: 5px;
-    font-size: 14px;
-  }
-  .company {
-    color: $lightGray;
+    font-size: 14px; }
+  .card-container .company {
+    color: #ababab;
     text-transform: uppercase;
-    font-size: 12px;
-  }
-  .social {
-    a, a:hover {
-      color: $lightGray;
-      text-decoration: none;
-    }
-  }
-}
+    font-size: 12px; }
+  .card-container .social a, .card-container .social a:hover {
+    color: #ababab;
+    text-decoration: none; }
 
 .speaker-detail {
   position: fixed;
@@ -48,10 +37,8 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .7);
-  .speaker-detail-content {
+  background-color: rgba(0, 0, 0, 0.7); }
+  .speaker-detail .speaker-detail-content {
     top: -200px;
     width: 100px;
-    height: 100px;
-  }
-}
+    height: 100px; }

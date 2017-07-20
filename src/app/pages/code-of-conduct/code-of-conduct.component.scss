@@ -1,35 +1,27 @@
-@import "../../../variables";
-
 .coc {
-  margin-top: 1em;
-  .page-title {
+  margin-top: 1em; }
+  .coc .page-title {
     text-align: center;
     font-size: 40px;
-    color: $darkGray;
-    @media only screen and (max-width: 768px) {
-      margin-top: 5px;
-    }
+    color: #222222;
     margin-top: 100px;
-    margin-bottom: 30px;
-  }
-  .page-subtitle {
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .coc .page-title {
+        margin-top: 5px; } }
+  .coc .page-subtitle {
     margin-top: 25px;
-    color: $medGray;
-    size: 16px;
-  }
-  .divider {
+    color: #666666;
+    size: 16px; }
+  .coc .divider {
     text-align: center;
-    span {
+    margin-top: 30px;
+    margin-bottom: 50px; }
+    .coc .divider span {
       content: "";
       display: inline-block;
       width: 45px;
-      border-bottom: 5px solid $primary;
-    }
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
-  .body-section {
-    color: $medGray;
-    font-size: 14px;
-  }
-}
+      border-bottom: 5px solid #b62c31; }
+  .coc .body-section {
+    color: #666666;
+    font-size: 14px; }
