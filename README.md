@@ -25,7 +25,8 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 `ng build --prod --aot --base-href 'http://ng-atl.org'`
 `cp CNAME dist/CNAME`
-`ln -s index.html 404.html`
+`cd dist && ln -s index.html 404.html && cd ..`
+`ngh`
 
 ## Publish
 Run `npm run production` to create production build.
