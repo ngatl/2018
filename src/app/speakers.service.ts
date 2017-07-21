@@ -13,7 +13,7 @@ export class SpeakersService {
     },
     {
       name: 'Michael Moss',
-      image: '../assets/michael moss.jpeg',
+      image: '../assets/michaelmoss.jpg',
       company: '',
       social: {
         twitter: 'realmike33'

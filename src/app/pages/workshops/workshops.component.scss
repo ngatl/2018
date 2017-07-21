@@ -1,0 +1,18 @@
+.workshop-container {
+  padding-top: 20px;
+  section.workshop {
+    width: 80%;
+    margin: auto auto;
+    .workshop-header {
+      font-size: 1.5em;
+      .instructor {
+        font-style: italic;
+      }
+    }
+    .workshop-body {
+      margin-top: 5px;
+      margin-bottom: 30px;
+      line-height: 1.75em;
+    }
+  }
+}
