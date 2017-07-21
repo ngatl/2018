@@ -76,6 +76,14 @@ export class SpeakersService {
       }
     },
     {
+      name: 'Ryan Chenkie',
+      image: '../assets/Ryan.jpeg',
+      company: 'Auth0',
+      social: {
+        twitter: 'ryanchenkie'
+      }
+    },
+    {
       name: 'Chaela Womack',
       image: '../assets/Chaela.jpg',
       company: 'CareerBuilder',
