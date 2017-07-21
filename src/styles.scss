@@ -3,6 +3,7 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 $fa-font-path: '../node_modules/font-awesome/fonts';
 @import '../node_modules/font-awesome/scss/font-awesome';
+@import "/variables";
 
 app-root {
   display: flex;
@@ -12,4 +13,25 @@ app-root {
 
 input {
   outline: none;
+}
+
+.breadcrumb-hero {
+  text-align: center;
+  color: $white;
+  background-color: $lightGray;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  .breadcrumb-title {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .breadcrumb-links {
+    font-size: 10px;
+  }
+  a, a:hover {
+    color: $white;
+  }
+  .current {
+    color: $primary;
+  }
 }

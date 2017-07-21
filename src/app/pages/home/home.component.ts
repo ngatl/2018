@@ -44,7 +44,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.sponsors = [
-      {name: 'GitHub', level: 'Diversity Supporter', image: '/sponsors/GitHub_Logo.png'}
+      {name: 'GitHub', level: 'Diversity Supporter', image: '/sponsors/GitHub_Logo.png'},
+      {name: 'Robert Half Technology', level: 'Silver', image: '/sponsors/robert-half.gif'},
+      {name: 'ADP', level: 'Gold', image: '/sponsors/adp_logo.svg'}
     ];
   }
 
