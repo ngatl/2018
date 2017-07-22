@@ -134,12 +134,13 @@ export class SpeakersService {
       }
     },
     {
-      name: 'Samantha Lee',
+      name: 'Samantha Rhodes',
       image: '../assets/Samantha.jpg',
       company: '',
       social: {
         twitter: 'SamLee_509'
-      }
+      },
+      bio: 'Samantha Rhodes is the co-founder of Code Bridge Texas and a high school student in Houston, Texas. Along with her mom, Sam enjoys learning Angular and teaching it to others. In her free time, she enjoys running, teaching, volunteering, and learning new things.'
     },
     {
       name: 'April Wensel',
@@ -179,7 +180,8 @@ export class SpeakersService {
       company: '',
       social: {
         twitter: 'bonnster75'
-      }
+      },
+      bio: 'Bonnie Brennan is the founder of the ngHouston Angular Meetup. Along with her teenage daughter, she also co-founded Code Bridge Texas, where together they plan and teach free programming workshops for girls and women. Bonnie has been writing and teaching Angular since 2013 and is passionate about code quality, continuing education, and empowering others who want to learn.'
     },
     {
       name: 'Deanna Rowe',
@@ -262,7 +264,8 @@ export class SpeakersService {
       company: 'Microsoft',
       social: {
         twitter: 'shanselman'
-      }
+      },
+      bio: 'Scott is a web developer who has been blogging at https://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers\' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He\'s written a number of books and spoken in person to almost a half million developers worldwide.'
     },
     {
       name: 'John McSwain',
