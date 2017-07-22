@@ -24,3 +24,61 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.modal-body {
+  .speaker-card {
+    text-align: center;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    border: 1px solid #acacac;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 360px;
+    @media only screen and (max-width: 1280px) and (min-width: 769px) {
+      margin: auto auto;
+      display: block;
+      border: none;
+    }
+    img.image {
+      height: 260px;
+      max-width: 260px;
+    }
+    .name {
+      color: #222222;
+      font-size: 22px;
+    }
+    .company {
+      font-size: 13px;
+      color: #666666;
+    }
+    .social {
+      a {
+        font-size: 18px;
+        color: #ababab;
+      }
+    }
+  }
+  .bio {
+    display: inline-block;
+    width: 580px;
+    color: #666666;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float:right;
+    @media only screen and (max-width: 1280px) and (min-width: 769px) {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      width: auto;
+      float: none;
+    }
+    .subtitle {
+      font-size: 16px;
+    }
+    .bio-body {
+      font-size: 14px;
+    }
+  }
+}

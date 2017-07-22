@@ -24,6 +24,7 @@ import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { SpeakersService } from './speakers.service';
 import { WorkshopsService } from './workshops.service';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { WorkshopsService } from './workshops.service';
     FormsModule,
     HttpModule,
     JsonpModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    ModalModule.forRoot()
   ],
   providers: [ SpeakersService, WorkshopsService ],
   bootstrap: [ AppComponent ],
