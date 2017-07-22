@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'lato';
 @import '../node_modules/bootstrap/scss/bootstrap';
+
 $fa-font-path: '../node_modules/font-awesome/fonts';
 @import '../node_modules/font-awesome/scss/font-awesome';
 @import "/variables";
@@ -33,5 +34,30 @@ input {
   }
   .current {
     color: $primary;
+  }
+}
+
+.red-button {
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+  border-radius: 25px;
+  color: $white;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: $primary;
+  border: 1px solid $primary;
+  &[disabled] {
+    background-color: $medGray;
+    border-color: $lightGray;
+    cursor: not-allowed;
   }
 }
