@@ -6,7 +6,10 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/ts-node src/server.ts"
+    "prestart": "npm run build",
+    "start": "./node_modules/.bin/ts-node src/server.ts",
+    "build": "ng build --env=prod && gulp before:ngc && ngc && gulp after:ngc",
+    "deploy": "gcloud app deploy"
   },
   "private": true,
   "dependencies": {
