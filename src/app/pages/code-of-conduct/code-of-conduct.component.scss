@@ -1,27 +1,33 @@
 .coc {
   margin-top: 1em; }
+
+.coc .page-title {
+  text-align: center;
+  font-size: 40px;
+  color: #222222;
+  margin-top: 100px;
+  margin-bottom: 30px; }
+
+@media only screen and (max-width: 768px) {
   .coc .page-title {
-    text-align: center;
-    font-size: 40px;
-    color: #222222;
-    margin-top: 100px;
-    margin-bottom: 30px; }
-    @media only screen and (max-width: 768px) {
-      .coc .page-title {
-        margin-top: 5px; } }
-  .coc .page-subtitle {
-    margin-top: 25px;
-    color: #666666;
-    size: 16px; }
-  .coc .divider {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px; }
-    .coc .divider span {
-      content: "";
-      display: inline-block;
-      width: 45px;
-      border-bottom: 5px solid #b62c31; }
-  .coc .body-section {
-    color: #666666;
-    font-size: 14px; }
+    margin-top: 5px; } }
+
+.coc .page-subtitle {
+  margin-top: 25px;
+  color: #666666;
+  size: 16px; }
+
+.coc .divider {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.coc .divider span {
+  content: "";
+  display: inline-block;
+  width: 45px;
+  border-bottom: 5px solid #b62c31; }
+
+.coc .body-section {
+  color: #666666;
+  font-size: 14px; }

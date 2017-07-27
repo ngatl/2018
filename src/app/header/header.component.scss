@@ -1,46 +1,57 @@
 .app {
   font-family: sans-serif; }
+
+.app .social {
+  color: #ffffff;
+  height: 57px;
+  background-color: #222222;
+  padding: 1% 0; }
+
+@media only screen and (max-width: 768px) {
   .app .social {
-    color: #ffffff;
-    height: 57px;
-    background-color: #222222;
-    padding: 1% 0; }
-    @media only screen and (max-width: 768px) {
-      .app .social {
-        height: 30px; } }
-    .app .social .contact {
-      padding: 0 20px;
-      border-right: 1px solid lightgrey;
-      border-left: 1px solid lightgray; }
-      .app .social .contact a, .app .social .contact a:visited {
-        font-size: 14px;
-        color: #ffffff; }
-    .app .social .icons a, .app .social .icons a:hover {
-      border-left: 1px solid #ffffff;
-      text-decoration: none;
-      font-size: 13px;
-      color: #ffffff;
-      padding: 0 15px; }
-    .app .social .icons a:last-child {
-      border-right: 1px solid #ffffff; }
+    height: 30px; } }
+
+.app .social .contact {
+  padding: 0 20px;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgray; }
+
+.app .social .contact a, .app .social .contact a:visited {
+  font-size: 14px;
+  color: #ffffff; }
+
+.app .social .icons a, .app .social .icons a:hover {
+  border-left: 1px solid #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 0 15px; }
+
+.app .social .icons a:last-child {
+  border-right: 1px solid #ffffff; }
+
+.app .primary-nav {
+  height: 100px;
+  padding: 10px 0;
+  text-transform: uppercase; }
+
+@media only screen and (max-width: 768px) {
   .app .primary-nav {
-    height: 100px;
-    padding: 10px 0;
-    text-transform: uppercase; }
-    @media only screen and (max-width: 768px) {
-      .app .primary-nav {
-        text-align: center; } }
-    .app .primary-nav nav {
-      height: 75px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between; }
-      .app .primary-nav nav a,
-      .app .primary-nav nav a:visited {
-        padding: 0 20px;
-        display: inline-block;
-        color: #222222; }
-    .app .primary-nav a:hover {
-      color: #b62c31;
-      cursor: pointer; }
+    text-align: center; } }
+
+.app .primary-nav nav {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.app .primary-nav nav a,
+.app .primary-nav nav a:visited {
+  padding: 0 20px;
+  display: inline-block;
+  color: #222222; }
+
+.app .primary-nav a:hover {
+  color: #b62c31;
+  cursor: pointer; }

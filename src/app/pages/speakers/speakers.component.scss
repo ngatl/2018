@@ -1,26 +1,24 @@
-@import "../../../variables";
-
 .speakers-block {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  app-speaker-card {
-    cursor: pointer;
-    text-align: center;
-    @media only screen and (max-width: 768px) {
-      width: calc(100% - 10px - 1px);
-    }
-    @media only screen and (max-width: 1280px) and (min-width: 769px) {
-      width: calc(100% * (1 / 2) - 10px - 1px);
-    }
-    width: calc(100% * (1 / 3) - 10px - 1px);
-    flex-grow: 1;
-  }
-}
+  justify-content: space-between; }
+
+.speakers-block app-speaker-card {
+  cursor: pointer;
+  text-align: center;
+  width: calc(100% * (1 / 3) - 10px - 1px);
+  flex-grow: 1; }
+
+@media only screen and (max-width: 768px) {
+  .speakers-block app-speaker-card {
+    width: calc(100% - 10px - 1px); } }
+
+@media only screen and (max-width: 1280px) and (min-width: 769px) {
+  .speakers-block app-speaker-card {
+    width: calc(100% * (1 / 2) - 10px - 1px); } }
 
 .speakers-purchase {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
