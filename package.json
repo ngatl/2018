@@ -6,9 +6,10 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "prestart": "npm run build",
+    "prestart": "npm run build-server",
     "start": "./node_modules/.bin/ts-node src/server.ts",
     "build": "ng build --prod --build-optimizer && gulp before:ngc && ngc && gulp after:ngc",
+    "build-server": "ng build --prod --aot --build-optimizer --app 1",
     "deploy": "gcloud app deploy"
   },
   "private": true,
@@ -25,7 +26,9 @@
     "@angular/router": "^5.0.0-beta.0",
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "enhanced-resolve": "^3.4.1",
     "font-awesome": "^4.7.0",
+    "fs-extra": "^4.0.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-rename": "^1.2.2",
@@ -52,6 +55,7 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.3.0",
     "tslint": "~5.5.0",
-    "typescript": "~2.4.2"
+    "typescript": "~2.4.2",
+    "webpack": "^3.4.1"
   }
 }

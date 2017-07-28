@@ -1,23 +1,22 @@
 .workshop-container {
-  padding-top: 20px;
-  section.workshop {
-    width: 80%;
-    margin: auto auto;
-    .workshop-header {
-      font-size: 1.5em;
-      .instructor {
-        font-style: italic;
-      }
-    }
-    .workshop-body {
-      margin-top: 5px;
-      margin-bottom: 30px;
-      line-height: 1.75em;
-    }
-  }
-}
+  padding-top: 20px; }
+
+.workshop-container section.workshop {
+  width: 80%;
+  margin: auto auto; }
+
+.workshop-container section.workshop .workshop-header {
+  font-size: 1.5em; }
+
+.workshop-container section.workshop .workshop-header .instructor {
+  font-style: italic; }
+
+.workshop-container section.workshop .workshop-body {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  line-height: 1.75em; }
+
 .workshop-purchase {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }

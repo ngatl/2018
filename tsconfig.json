@@ -9,6 +9,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "allowJs": true,
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -16,9 +17,5 @@
       "es2016",
       "dom"
     ]
-  },
-  "angularCompilerOptions": {
-    "genDir": "./dist/ngfactory",
-    "entryModule": "./src/app/app.module#AppModule"
   }
 }
