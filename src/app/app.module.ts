@@ -24,6 +24,7 @@ import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { SpeakersService } from './speakers.service';
 import { WorkshopsService } from './workshops.service';
+import { ModalModule } from 'ngx-bootstrap/modal';
 import { SessionsService } from './sessions.service';
 import { SessionsComponent } from './pages/sessions/sessions.component';
 
@@ -49,7 +50,8 @@ import { SessionsComponent } from './pages/sessions/sessions.component';
     FormsModule,
     HttpModule,
     JsonpModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    ModalModule.forRoot()
   ],
   providers: [ SpeakersService, WorkshopsService, SessionsService ],
   bootstrap: [ AppComponent ],
