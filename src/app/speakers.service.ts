@@ -167,6 +167,14 @@ export class SpeakersService {
       bio: 'April Wensel is the founder of Compassionate Coding, a social enterprise that offers coaching and training to empower individuals and teams to cultivate sustainable and human-­centered agile software development practices. She has spent the past decade in software engineering and technical leadership roles at various Silicon Valley startups. She also mentors widely and volunteers with organizations like Black Girls Code and Hackbright Academy to advance diversity in the software industry. When not coding, she enjoys writing, running marathons, and cooking vegan food.'
     },
     {
+      name: 'Randall Koutnik',
+      image: '../assets/Randall.jpg',
+      company: 'Netflix',
+      social: {
+        twitter: 'rkoutnik'
+      }
+    },
+    {
       name: 'Susan Goldblatt',
       image: '../assets/Susan.jpg',
       company: 'Google',
@@ -258,6 +266,14 @@ export class SpeakersService {
       company: 'Stanley Black & Decker',
       social: {
         twitter: 'ratracegrad'
+      }
+    },
+    {
+      name: 'Jen Looper',
+      image: '../assets/Jen.jpg',
+      company: 'Progress',
+      social: {
+        twitter: 'jenlooper'
       }
     },
     {
