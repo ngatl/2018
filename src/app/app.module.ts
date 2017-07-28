@@ -24,6 +24,8 @@ import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { SpeakersService } from './speakers.service';
 import { WorkshopsService } from './workshops.service';
+import { SessionsService } from './sessions.service';
+import { SessionsComponent } from './pages/sessions/sessions.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { WorkshopsService } from './workshops.service';
     HeaderComponent,
     SpeakerCardComponent,
     BreadcrumbComponent,
-    WorkshopsComponent
+    WorkshopsComponent,
+    SessionsComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +51,7 @@ import { WorkshopsService } from './workshops.service';
     JsonpModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [ SpeakersService, WorkshopsService ],
+  providers: [ SpeakersService, WorkshopsService, SessionsService ],
   bootstrap: [ AppComponent ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })

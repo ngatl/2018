@@ -1,0 +1,30 @@
+<div class="breadcrumb-hero">
+  <div class="breadcrumb-title">Sessions</div>
+  <div class="breadcrumb-links"><a routerLink="">HOME / </a><span class="current">SESSIONS</span></div>
+</div>
+<div class="session-purchase">
+  <a class="red-button" href="https://ti.to/ngatlconf/ngatl-2018" target="_blank">Get your tickets now</a>
+</div>
+<div class="session-container">
+  <div class="more-soon">More Session Details Coming Soon</div>
+  <section class="session" *ngFor="let session of sessions">
+    <div class="session-header">
+      <span class="title">{{session.title}}</span>
+      <span class="speaker pull-right">
+        <span class="instructor" *ngFor="let instructor of session.instructors; last as isLast">{{instructor.name}}<span
+          *ngIf="!isLast && session.instructors.length > 1">,</span>
+        </span>
+      </span>
+    </div>
+    <div class="session-body">
+      {{session.description}}
+      <div *ngIf="session.isShai">
+        <img class="shai" [src]="'../assets/oh-no-panic.gif'">
+      </div>
+    </div>
+  </section>
+  <div class="more-soon">More Session Details Coming Soon</div>
+</div>
+<div class="session-purchase">
+  <a class="red-button" href="https://ti.to/ngatlconf/ngatl-2018" target="_blank">Get your tickets now</a>
+</div>
