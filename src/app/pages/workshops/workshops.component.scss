@@ -1,3 +1,4 @@
+@import "../../../variables";
 .workshop-container {
   padding-top: 20px;
   section.workshop {
@@ -15,6 +16,13 @@
       line-height: 1.75em;
     }
   }
+}
+.more-soon {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  color: $primary;
+  font-weight: bold;
 }
 .workshop-purchase {
   text-align: center;
