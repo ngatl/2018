@@ -183,7 +183,7 @@ export class SpeakersService {
       }
     },
     {
-      name: 'Kapunahele Wang',
+      name: 'Kapunahele Wong',
       image: '../assets/Kapunahele.jpg',
       company: '',
       social: {
