@@ -9,17 +9,24 @@ import { join } from 'path';
 
 const fs = require('fs');
 const path = require('path');
+
 const serverPath = '../dist-server/';
+const clientPath = '../dist/';
 const serverFiles = fs.readdirSync(path.resolve(__dirname, serverPath));
+const clientFiles = fs.readdirSync(path.resolve(__dirname, clientPath));
 
 let bundle = '';
-let styles = '';
+
 for (const i in serverFiles) {
   if (path.extname(serverFiles[i]) === '.js' && path.basename(serverFiles[i]).indexOf('main') !== -1) {
     bundle = serverPath + serverFiles[i];
   }
-  if (path.extname(serverFiles[i]) === '.css' && path.basename(serverFiles[i]).indexOf('styles') !== -1) {
-    styles = `  <link href="${path.basename(serverFiles[i])}" rel="stylesheet"/>\n</head>`;
+}
+
+for (const i in clientFiles) {
+  if (path.extname(clientFiles[i]) === '.js') {
+    fs.createReadStream(path.resolve(__dirname, clientPath, path.basename(clientFiles[i])))
+      .pipe(fs.createWriteStream(path.resolve(__dirname, serverPath, path.basename(clientFiles[i]))));
   }
 }
 
@@ -31,9 +38,7 @@ enableProdMode();
 
 const app = express();
 
-let template = readFileSync(join(__dirname, 'index.html'), 'utf8');
-
-template = template.replace('</head>', styles);
+const template = readFileSync(join(__dirname, '..', 'dist', 'index.html'), 'utf8');
 
 app.engine('html', (_, options, callback) => {
   const opts = {document: template, url: options.req.url};

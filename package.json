@@ -6,10 +6,10 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "prestart": "npm run build-server",
+    "prestart": "npm run build",
     "start": "ts-node src/server.ts",
-    "build": "ng build --prod --aot --build-optimizer",
-    "build-server": "ng build --prod --aot --build-optimizer --app atl-serv",
+    "prebuild": "ng build --prod --aot --build-optimizer",
+    "build": "ng build --prod --aot --build-optimizer --app atl-serv",
     "deploy": "gcloud app deploy"
   },
   "private": true,
