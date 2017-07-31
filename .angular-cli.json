@@ -29,6 +29,7 @@
       }
     },
     {
+      "name": "atl-serv",
       "platform": "server",
       "root": "src",
       "outDir": "dist-server",

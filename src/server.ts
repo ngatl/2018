@@ -9,13 +9,17 @@ import { join } from 'path';
 
 const fs = require('fs');
 const path = require('path');
-const distPath = '../dist-server/';
-const files = fs.readdirSync(path.resolve(__dirname, distPath));
+const serverPath = '../dist-server/';
+const serverFiles = fs.readdirSync(path.resolve(__dirname, serverPath));
 
 let bundle = '';
-for (const i in files) {
-  if (path.extname(files[i]) === '.js') {
-    bundle = distPath + files[i];
+let styles = '';
+for (const i in serverFiles) {
+  if (path.extname(serverFiles[i]) === '.js' && path.basename(serverFiles[i]).indexOf('main') !== -1) {
+    bundle = serverPath + serverFiles[i];
+  }
+  if (path.extname(serverFiles[i]) === '.css' && path.basename(serverFiles[i]).indexOf('styles') !== -1) {
+    styles = `  <link href="${path.basename(serverFiles[i])}" rel="stylesheet"/>\n</head>`;
   }
 }
 
@@ -27,7 +31,9 @@ enableProdMode();
 
 const app = express();
 
-const template = readFileSync(join(__dirname, '..', 'src', 'index.html'), 'utf8');
+let template = readFileSync(join(__dirname, 'index.html'), 'utf8');
+
+template = template.replace('</head>', styles);
 
 app.engine('html', (_, options, callback) => {
   const opts = {document: template, url: options.req.url};
