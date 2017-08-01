@@ -6,8 +6,34 @@
   <a class="red-button" href="https://ti.to/ngatlconf/ngatl-2018" target="_blank">Get your tickets now</a>
 </div>
 <div class="speakers-block">
-  <app-speaker-card *ngFor="let speaker of speakers" [speaker]="speaker"></app-speaker-card>
+  <app-speaker-card *ngFor="let speaker of speakers" [speaker]="speaker"
+                    (click)="openModal(template, speaker)"></app-speaker-card>
 </div>
 <div class="speakers-purchase">
   <a class="red-button" href="https://ti.to/ngatlconf/ngatl-2018" target="_blank">Get your tickets now</a>
 </div>
+
+<ng-template #template>
+  <div class="modal-body">
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="speaker-card">
+      <img class="image" [src]="currentSpeaker.image">
+      <div class="name">{{currentSpeaker.name}}</div>
+      <div class="company">{{currentSpeaker.company}}</div>
+      <div class="social">
+        <a *ngIf="currentSpeaker.social && currentSpeaker.social.twitter" target="_blank"
+           [href]="'https://twitter.com/'+currentSpeaker.social.twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+    <div class="bio">
+      <div class="subtitle">Speaker Bio</div>
+      <div class="bio-body">
+        {{currentSpeaker.bio || 'Bio Coming Soon'}}
+      </div>
+    </div>
+  </div>
+</ng-template>

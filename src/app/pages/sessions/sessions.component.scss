@@ -1,16 +1,16 @@
 @import "../../../variables";
-.workshop-container {
+.session-container {
   padding-top: 20px;
-  section.workshop {
+  section.session {
     width: 80%;
     margin: auto auto;
-    .workshop-header {
+    .session-header {
       font-size: 1.5em;
       .instructor {
         font-style: italic;
       }
     }
-    .workshop-body {
+    .session-body {
       margin-top: 5px;
       margin-bottom: 30px;
       line-height: 1.75em;
@@ -24,8 +24,11 @@
   color: $primary;
   font-weight: bold;
 }
-.workshop-purchase {
+.session-purchase {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.shai {
+  height: 200px;
 }

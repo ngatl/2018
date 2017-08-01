@@ -1,24 +1,84 @@
+@import "../../../variables";
+
 .speakers-block {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
-
-.speakers-block app-speaker-card {
-  cursor: pointer;
-  text-align: center;
-  width: calc(100% * (1 / 3) - 10px - 1px);
-  flex-grow: 1; }
-
-@media only screen and (max-width: 768px) {
-  .speakers-block app-speaker-card {
-    width: calc(100% - 10px - 1px); } }
-
-@media only screen and (max-width: 1280px) and (min-width: 769px) {
-  .speakers-block app-speaker-card {
-    width: calc(100% * (1 / 2) - 10px - 1px); } }
+  justify-content: space-between;
+  app-speaker-card {
+    cursor: pointer;
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+      width: calc(100% - 10px - 1px);
+    }
+    @media only screen and (max-width: 1280px) and (min-width: 769px) {
+      width: calc(100% * (1 / 2) - 10px - 1px);
+    }
+    width: calc(100% * (1 / 3) - 10px - 1px);
+    flex-grow: 1;
+  }
+}
 
 .speakers-purchase {
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
+
+.modal-body {
+  .speaker-card {
+    text-align: center;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    border: 1px solid #acacac;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 360px;
+    @media only screen and (max-width: 1280px) and (min-width: 769px) {
+      margin: auto auto;
+      display: block;
+      border: none;
+    }
+    img.image {
+      height: 260px;
+      max-width: 260px;
+    }
+    .name {
+      color: #222222;
+      font-size: 22px;
+    }
+    .company {
+      font-size: 13px;
+      color: #666666;
+    }
+    .social {
+      a {
+        font-size: 18px;
+        color: #ababab;
+      }
+    }
+  }
+  .bio {
+    display: inline-block;
+    width: 580px;
+    color: #666666;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float:right;
+    @media only screen and (max-width: 1280px) and (min-width: 769px) {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      width: auto;
+      float: none;
+    }
+    .subtitle {
+      font-size: 16px;
+    }
+    .bio-body {
+      font-size: 14px;
+    }
+  }
+}

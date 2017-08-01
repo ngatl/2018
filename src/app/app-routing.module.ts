@@ -5,7 +5,8 @@ import {
   HomeComponent,
   SpeakersComponent,
   SponsorsComponent,
-  WorkshopsComponent
+  WorkshopsComponent,
+  SessionsComponent
 } from './pages/pages';
 
 export const routes: Routes = [
@@ -13,6 +14,7 @@ export const routes: Routes = [
   {path: 'CodeOfConduct', component: CodeOfConductComponent},
   {path: 'Speakers', component: SpeakersComponent},
   {path: 'Sponsors', component: SponsorsComponent},
+  {path: 'Sessions', component: SessionsComponent},
   {path: 'Workshops', component: WorkshopsComponent},
   {path: 'Details', component: DetailsComponent}
 ];
