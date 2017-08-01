@@ -7,7 +7,7 @@
   },
   "scripts": {
     "prestart": "npm run build",
-    "start": "ts-node src/server.ts",
+    "start": "ts-node --ignore false src/server.ts",
     "prebuild": "ng build --prod --aot --build-optimizer",
     "build": "ng build --prod --aot --build-optimizer --app atl-serv",
     "deploy": "gcloud app deploy"
@@ -28,8 +28,8 @@
     "core-js": "^2.4.1",
     "enhanced-resolve": "^3.4.1",
     "font-awesome": "^4.7.0",
-    "ngx-bootstrap": "^1.8.0",
     "fs-extra": "^4.0.0",
+    "ngx-bootstrap": "^1.8.1",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.16"
   },

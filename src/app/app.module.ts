@@ -3,10 +3,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { AppComponent } from './app.component';
 import { routes } from './app-routing.module';
-import { RouterModule } from '@angular/router';
+
 // Import Page Components:
 import {
   CodeOfConductComponent,
@@ -24,7 +26,6 @@ import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { SpeakersService } from './speakers.service';
 import { WorkshopsService } from './workshops.service';
-import { ModalModule } from 'ngx-bootstrap/modal';
 import { SessionsService } from './sessions.service';
 import { SessionsComponent } from './pages/sessions/sessions.component';
 
