@@ -14,7 +14,7 @@ COPY . /app/
 # This command will also cat the npm-debug.log file after the
 # build, if it exists.
 RUN npm install --unsafe-perm -g typescript ts-node
-RUN npm install --unsafe-perm || \
+RUN npm install --unsafe-perm --dev || \
   ((if [ -f npm-debug.log ]; then \
       cat npm-debug.log; \
     fi) && false)
