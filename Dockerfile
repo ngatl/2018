@@ -13,9 +13,9 @@ COPY . /app/
 # as well.
 # This command will also cat the npm-debug.log file after the
 # build, if it exists.
-RUN npm install --unsafe-perm --dev || \
+RUN npm install --unsafe-perm -g typescript ts-node
+RUN npm install --unsafe-perm || \
   ((if [ -f npm-debug.log ]; then \
       cat npm-debug.log; \
     fi) && false)
-
-CMD npm start
+CMD npm run gcloud:start

@@ -7,6 +7,7 @@
   },
   "scripts": {
     "prestart": "npm run build",
+    "gcloud:start":"ts-node --ignore false src/server.ts",
     "start": "ts-node --ignore false src/server.ts",
     "prebuild": "ng build --prod --aot --build-optimizer",
     "build": "ng build --prod --aot --build-optimizer --app atl-serv",
