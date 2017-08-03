@@ -6,7 +6,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "start": "forever start src/server.js",
+    "start": "node src/server.js",
     "build-client": "ng build --prod --aot --build-optimizer",
     "build-server": "ng build --prod --aot --build-optimizer --app atl-serv",
     "build": "npm run build-client && npm run build-server && sh ./run.sh && webpack",
