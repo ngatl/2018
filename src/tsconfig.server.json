@@ -4,10 +4,13 @@
     "outDir": "../out-tsc/app",
     "module": "commonjs",
     "baseUrl": "",
-    "types": []
+    "types": [
+      "node"
+    ]
   },
   "exclude": [
     "server.ts",
+    "server.tmpl.ts",
     "test.ts",
     "**/*.spec.ts"
   ],

@@ -7,32 +7,9 @@ import * as express from 'express';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-const fs = require('fs');
-const path = require('path');
+const AppServerModuleNgFactory = require('../dist-server/SERVER_BUNDLE_FILENAME').AppServerModuleNgFactory;
 
-const serverPath = '../dist-server/';
-const clientPath = '../dist/';
-const serverFiles = fs.readdirSync(path.resolve(__dirname, serverPath));
-const clientFiles = fs.readdirSync(path.resolve(__dirname, clientPath));
-
-let bundle = '';
-
-for (const i in serverFiles) {
-  if (path.extname(serverFiles[i]) === '.js' && path.basename(serverFiles[i]).indexOf('main') !== -1) {
-    bundle = serverPath + serverFiles[i];
-  }
-}
-
-for (const i in clientFiles) {
-  if (path.extname(clientFiles[i]) === '.js') {
-    fs.createReadStream(path.resolve(__dirname, clientPath, path.basename(clientFiles[i])))
-      .pipe(fs.createWriteStream(path.resolve(__dirname, serverPath, path.basename(clientFiles[i]))));
-  }
-}
-
-const AppServerModuleNgFactory = require(bundle).AppServerModuleNgFactory;
-
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 enableProdMode();
 

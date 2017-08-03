@@ -6,11 +6,10 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "prestart": "npm run build",
-    "gcloud:start":"ts-node --ignore false src/server.ts",
-    "start": "ts-node --ignore false src/server.ts",
-    "prebuild": "ng build --prod --aot --build-optimizer",
-    "build": "ng build --prod --aot --build-optimizer --app atl-serv",
+    "start": "node src/server.js",
+    "build-client": "ng build --prod --aot --build-optimizer",
+    "build-server": "ng build --prod --aot --build-optimizer --app atl-serv",
+    "build": "npm run build-client && npm run build-server && sh ./run.sh && webpack",
     "deploy": "gcloud app deploy"
   },
   "private": true,
@@ -41,6 +40,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~8.0.17",
     "codelyzer": "~3.1.1",
+    "forever": "^0.15.3",
     "jasmine-core": "^2.7.0",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
@@ -50,9 +50,10 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
-    "ts-node": "~3.3.0",
+    "ts-loader": "^2.3.2",
     "tslint": "~5.5.0",
     "typescript": "~2.4.2",
-    "webpack": "^3.4.1"
+    "webpack": "^3.4.1",
+    "webpack-node-externals": "^1.6.0"
   }
 }
