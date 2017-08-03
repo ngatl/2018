@@ -18,4 +18,7 @@ RUN npm install --unsafe-perm --dev || \
   ((if [ -f npm-debug.log ]; then \
       cat npm-debug.log; \
     fi) && false)
-CMD npm run gcloud:start
+
+RUN npm run build
+
+CMD npm start
