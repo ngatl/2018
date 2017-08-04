@@ -67,7 +67,9 @@ export class SpeakersService {
       company: '',
       social: {
         twitter: 'CarmenPopoviciu'
-      }
+      },
+      bio: 'Carmen is a front-end engineer who likes writing code and solving challenging puzzles. She\'s currently working towards undertaking the path of Artificial Neural Networks and Machine Learning ... all one step at a time.\n' +
+      'If she had superpowers, she would smiley all the things.'
     },
     {
       name: 'Tara Manicsic',
@@ -75,7 +77,9 @@ export class SpeakersService {
       company: 'Progress',
       social: {
         twitter: 'Tzmanics'
-      }
+      },
+      bio: 'Tara (@tzmanics) is a life-long student, teacher and maker. She has spent her career using Javascript on both back-end and front-end to create applications. In her free time she works in her community to educate and learn from other developers. Tara launched the Cincinnati Chapter of Women Who Code and Co-Chairs the Cincinnati branch of NodeSchool. Beyond code, she likes to make things with other materials (wool, solder, clay, etc.) and hike any mountain she can get to with her trusty sidekick, #toshmagosh.',
+      beyondBio: 'I started with Logo in second grade because I was at a Math/Science Magnet school but then I didn\'t do any programming again until 18 years later. I had found my way back to college classes (via the University\'s tuition assistance program) after flunking out the first time because, it turns out, I wasn\'t meant to be a marketing major. This time I studied CS while working a full-time job at the University and graduated from Harvard University Extension School with an Academic Achievement award. After moving back to Cincinnati, working a few years developing in Node for a paas and helping build up the Cincy tech community, I joined Progress as a Developer Advocate. I love talking failures turned victories, AmeriCorps NCCC, women/girls in tech efforts, puppies, cyberpunk, and lots of things in-between. Always up for chatting & coding together!'
     },
     {
       name: 'Ryan Chenkie',
@@ -172,7 +176,9 @@ export class SpeakersService {
       company: 'Netflix',
       social: {
         twitter: 'rkoutnik'
-      }
+      },
+      bio: 'Randall is a senior software engineer at Netflix, building tools that wake up other Netflixers when things break.  To offset that karma, he’s adopted a cat that wakes him up whenever a new JavaScript framework is released.  He doesn’t get much sleep.',
+      beyondBio:'4 of the 5 companies Randall\'s worked for no longer exist.  He hopes that\'s just a coincidence.'
     },
     {
       name: 'Susan Goldblatt',

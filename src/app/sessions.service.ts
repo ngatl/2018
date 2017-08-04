@@ -60,6 +60,46 @@ export class SessionsService {
         }
       ]
     },
+    // {
+    //   title: 'Emotionally Intelligent Engineering',
+    //   description: '',
+    //   instructors: [
+    //     {
+    //       name: 'April Wensel',
+    //       twitter: 'aprilwensel'
+    //     }
+    //   ]
+    // },
+    // {
+    //   title: '',
+    //   description: '',
+    //   instructors: [
+    //     {
+    //       name: 'Carmen Popoviciu',
+    //       twitter: 'CarmenPopoviciu'
+    //     }
+    //   ]
+    // },
+    {
+      title: 'The parable of the blender',
+      description: 'Between Webpack, new Angular releases and blogging about the latest npm controversy, it can be easy to lose sight of what we\'re here for: Using software to solve real-world problems.  Let\'s take a step back from the nitty-gritty to focus on the big picture - how do we figure out what our customers want?  How do we turn those vague wants into real products?  And what on earth does this have to do with a blender?\n',
+      instructors: [
+        {
+          name: 'Randall Koutnik',
+          twitter: 'rkoutnik'
+        }
+      ]
+    },
+    {
+      title: 'PWA All The Things!',
+      description: 'Progressive Web Apps are not replacing native mobile applications any time soon. Don’t disregard them just yet! They can take our web applications that we build or are currently running and make them better. By using support for offline caching, push notifications, home screen icons and more, we can upgrade our app to a PWA to make it more accessible, reliable and engaging! Let\'s take a look at how to to create or update our Angular applications. Then we will see what this looks like & acts like on multiple platforms so we know what all of our users are experiencing.',
+      instructors: [
+        {
+          name: 'Tara Manicsic',
+          twitter: 'tzmanics'
+        }
+      ]
+    },
     {
       title: 'NativeScript and CodeSharing',
       description: 'When it comes to sharing code between Angular web projects and NativeScript mobile apps there are several landmines you will want avoid. Even in today’s innovative frontend world, there really is no magic bullet to enable codesharing. Achieving success when marrying the 2 technologies varies a lot depending on several important factors. Nathan Walker has been experimenting and developing in this arena ever since both technologies emerged and has encountered a couple of important take aways. In this session, you’ll learn several important *Major Keys* to maximize code reuse with real world case studies.',
