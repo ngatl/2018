@@ -121,6 +121,33 @@ export class WorkshopsService {
           name: 'Pascal Precht'
         }
       ]
+    },
+    {
+      title: 'Code and Deploy Angular to the Azure Cloud',
+      length: '1 day',
+      day: 'Jan 31',
+      description: 'Workshop: Getting started with Angular is now easier than ever ... said no one ever. Yet with the right toolset we too can create magic. When I code with Angular I can deploy to Azure within minutes.\n' +
+      ' \n' +
+      'We\'ll go through a simple development to production workflow. First we code with a little help from the Angular CLI. Then we build for production - Webpack to the rescue. We then push our code to Github and deploy it on Node to Azure. Mission accomplished, application is now up in the cloud! \n' +
+      ' \n' +
+      'We\'ll then learn how to create an API for our application in a serverless way and build a CICD pipeline in Azure. Finally, with the right tools for monitoring and alerting we\'ll stay on top of our application\'s health and performance. \n' +
+      ' \n' +
+      'Content:\n' +
+      ' \n' +
+      'Intro to Azure \n' +
+      'Build an Angular app and deploy it to Azure App Service\n' +
+      'Create your app\'s API using Azure Functions\n' +
+      'Add data to your app - CosmosDB\n' +
+      'Continuous integration\n' +
+      'Monitor and scale your application',
+      instructors: [
+        {
+          name: 'Simona Cotin'
+        },
+        {
+          name: 'Brian Clark'
+        }
+      ]
     }
   ];
 

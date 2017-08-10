@@ -240,7 +240,7 @@ export class SpeakersService {
       social: {
         twitter: 'Aimee_Knight'
       },
-      bio: 'Aimee Knight is a former figure skater, graduate of the Nashville Software School, software engineer for Warner Bros and board director at Operation Code. Outside of work, she’s a weekly panelist on the JavaScript Jabber podcast, and she regularly participates in a variety of others. In her spare time, she enjoys speaking at conferences, playing with new technology, running, working out, or trying the latest flavor of Kombucha. Find her, and her contagious enthusiasm on Twitter @Aimee_Knight!'
+      bio: 'Aimee Knight is a former figure skater, graduate of the Nashville Software School, software engineer for Warner Bros. Outside of work, she’s a weekly panelist on the JavaScript Jabber podcast, and she regularly participates in a variety of others. In her spare time, she enjoys speaking at conferences, playing with new technology, running, working out, or trying the latest flavor of Kombucha. Find her, and her contagious enthusiasm on Twitter @Aimee_Knight!'
     },
     {
       name: 'Brandon Roberts',
