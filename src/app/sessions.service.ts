@@ -81,6 +81,20 @@ export class SessionsService {
     //   ]
     // },
     {
+      title: 'Create web components and use them anywhere!',
+      description: 'Many of us who work at larger companies often have to work with different teams, each using their web framework of choice. This means that projects often end up having a slightly different look and feel, as well as a lot of similar but non-sharable code.\n' +
+      '\n' +
+      'Web components were invented to solve some of these issues in part by making sharable components, which can be used standalone or within existing projects, based on different frameworks.\n' +
+      '\n' +
+      'During this talk, we will introduce web components and provide examples of how to get started, as well as how to use these components in your existing projects. ',
+      instructors: [
+        {
+          name: 'Sherry List',
+          twitter: 'sherrrylst'
+        }
+      ]
+    },
+    {
       title: 'The parable of the blender',
       description: 'Between Webpack, new Angular releases and blogging about the latest npm controversy, it can be easy to lose sight of what we\'re here for: Using software to solve real-world problems.  Let\'s take a step back from the nitty-gritty to focus on the big picture - how do we figure out what our customers want?  How do we turn those vague wants into real products?  And what on earth does this have to do with a blender?\n',
       instructors: [
