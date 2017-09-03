@@ -14,10 +14,12 @@ export class SpeakersService {
     {
       name: 'Michael Moss',
       image: '../assets/michaelmoss.jpg',
-      company: '',
+      company: 'OneSpeed',
       social: {
         twitter: 'realmike33'
-      }
+      },
+      bio: 'Started his engineering career as a React dev for an educational startup in SF(@LRNG). Often contribute to many different Swift libraries and even launched an app on the app store.',
+      beyondBio: 'You\'ll often find him playing DoTA2 or simply outside staring at nature. Sometimes will open up his text editor and hack on some open source games from time to time.'
     },
     {
       name: 'Erica Stanley',
@@ -38,7 +40,7 @@ export class SpeakersService {
     {
       name: 'Aysegul Yonet',
       image: '../assets/Aysegul.jpg',
-      company: '',
+      company: 'Nrwl',
       social: {
         twitter: 'AysSomething'
       },
@@ -124,14 +126,6 @@ export class SpeakersService {
       },
       bio: 'Patrick, aka PatrickJS, CTO of OneSpeed and AngularClass. Previously the CTO of Keychain Logistics. He is also the 2014 Launch Hackathon Winner and created Reddit Insight which was on the front page of /r/technology and TechCrunch. He has been contributing to Angular since the beginning and remains very active throughout its progression. When he isn\'t dreaming about the future of web applications he likes to eat sushi, boba, pizza, and talk about why Universal web apps before he converts to vegan.',
       beyondBio: 'I\'m a college drop out from a small town in the heart of California. It was at that moment I decided to follow my heart in pursuit of online education because I believed that education meant more than degrees or paper. Even when all my friends said I was crazy and no support from my family I still knew this was the right path for me. I spent two years teaching myself using online courses, educational meetup, and even auditing my friend\'s CS courses at UCSC. I caught my first break when I discovered One Month Rails on Skillshare which was a focused course to teach you to learn Ruby on Rails in one month. The next day I would start selling simple websites for cash using what I learned the day before to fuel my learning yet again. For designs, I would buy templates online for around $17 then wire everything into a website in one day. I would also teach Ruby on Rails to a few classmates (that I met during the original SkillShare class) to solidify what I just learned. One of the people I taught suggested I should attend the coding academy Hack Reactor (completely unknown at the time but now considered the Harvard of bootcamps). At Hack Reactor they taught us a great JavaScript foundation of from someone at Twitter. Towards the end of the course we had a group project which my team and I created an app called Reddit Insight. It turned out that our project became viral and was popular enough to be featured on Tech Crunch. We reached 600 concurrent users and was in the top 50,000 in the world that day. I graduated as one of the top students of Hack Reactor and became highly in demand due to my 15 minutes of fame. Rather than going with a large company I decided to go with a startup called Keychain Logistics which was Uber for the trucking industry ($603.9 billion dollar industry). The company was also funded by top tier investors such as Andreessen Horowitz and Softbank Capital. I hired a great development team and we built a ton of innovative tech around Angular and realtime data. The startup eventually folded and rather than joining another company I started my own with Scott Moss as AngularClass. I spent the year working on open-source with the Angular Team building out Angular Universal and with Netflix working on FalcorJS. Now we created a parent company OneSpeed broaden our scope with the team I created from Keychain Logistics. We focus heavily on diversity, open-source, consulting, and training.'
-    },
-    {
-      name: 'Vanessa Yuenn',
-      image: '../assets/Vanessa.jpg',
-      company: 'GitHub',
-      social: {
-        twitter: 'vanessayuenn'
-      }
     },
     {
       name: 'Kim Crayton',
@@ -325,6 +319,24 @@ export class SpeakersService {
       social: {
         twitter: 'johnmcswain'
       }
+    },
+    {
+      name: 'Wylesha Rachell',
+      image: '../assets/Wylesha.jpg',
+      company: 'Turner Broadcasting | NBA.com',
+      social: {
+        twitter: 'WyleshaRachell'
+      },
+      bio: 'Wylesha wrote her first line of code with custom Myspace pages for music artists while in college at LSU. Through ingenuity and a little reverse engineering, Wylesha taught herself the basic concepts of front-end development, and turned a profit in the process. It wasn’t until after she took her first Computer Science course her senior year, that she realized programming is what she wanted to do the rest of her life. After graduating with a Bachelors in Business Management, Wylesha moved to Atlanta and immersed herself in Software Engineering. She is currently on the tech team as a Sr. Engineer for NBA.com at Turner Broadcasting.'
+    },
+    {
+      name: 'Alyssa Nicoll',
+      image: '../assets/Alyssa.jpg',
+      company: '',
+      social: {
+        twitter: 'AlyssaNicoll'
+      },
+      bio: 'I am an energetic, über passionate GDE and Web Dev. I have some Front-End and Angular courses on Egghead.io and Code School. I love to learn new things and share them with others. I Scuba Dive and have a toothless dog named \'Gummy\'. My DM is always open, come talk sometime.'
     }
   ];
 
