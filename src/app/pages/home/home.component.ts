@@ -75,6 +75,11 @@ export class HomeComponent implements OnInit {
         name: 'Women Who Code, Atlanta',
         logo: '/community/WomenWhoCode.jpg',
         link: 'https://www.meetup.com/Women-Who-Code-Atlanta/',
+      },
+      {
+        name: 'ATL-Angular',
+        logo: '/community/AtlAngular.jpg',
+        link: 'https://www.meetup.com/ATL-Angular/',
       }
     ].sort(SpeakersService.sorting)
   }
