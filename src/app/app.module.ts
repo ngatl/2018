@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule, JsonpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { routes } from './app-routing.module';
@@ -27,6 +26,8 @@ import { WorkshopsService } from './workshops.service';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { SessionsService } from './sessions.service';
 import { SessionsComponent } from './pages/sessions/sessions.component';
+import { HttpClientModule } from '@angular/common/http';
+import { JsonpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { SessionsComponent } from './pages/sessions/sessions.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     JsonpModule,
     RouterModule.forRoot(routes),
     ModalModule.forRoot()

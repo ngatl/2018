@@ -108,4 +108,27 @@
       </div>
     </div>
   </div>
+  <div class="container community">
+    <div class="header row text-center">
+      <div class="col-12">
+        <h1>Our Community Partners</h1>
+        <div class="separator"></div>
+      </div>
+      <div class="col-4 card" *ngFor="let member of community">
+        <div class="image-container">
+          <a [href]="member.link" target="_blank">
+            <img [src]="'../../assets/' + member.logo" alt="member.name">
+          </a>
+        </div>
+        <div class="title">
+          {{ member.name }}
+        </div>
+      </div>
+      <div class="col-12">
+        <a class="red-button"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSduj89cqVIIlKg8m7N2UVIAr6utZQEE3aJkWRQyRPLNZ0eeTg/viewform?usp=sf_link"
+           target="_blank">Become a Community Partner</a>
+      </div>
+    </div>
+  </div>
 </div>
