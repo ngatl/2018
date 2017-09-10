@@ -8,6 +8,7 @@ import {
   WorkshopsComponent,
   SessionsComponent
 } from './pages/pages';
+import { BlogComponent } from './pages/blog/blog.component';
 
 export const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -16,5 +17,6 @@ export const routes: Routes = [
   {path: 'Sponsors', component: SponsorsComponent},
   {path: 'Sessions', component: SessionsComponent},
   {path: 'Workshops', component: WorkshopsComponent},
-  {path: 'Details', component: DetailsComponent}
+  {path: 'Details', component: DetailsComponent},
+  {path: 'Blog', component: BlogComponent}
 ];

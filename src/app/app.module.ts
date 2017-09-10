@@ -28,6 +28,7 @@ import { SessionsService } from './sessions.service';
 import { SessionsComponent } from './pages/sessions/sessions.component';
 import { HttpClientModule } from '@angular/common/http';
 import { JsonpModule } from '@angular/http';
+import { BlogComponent } from './pages/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { JsonpModule } from '@angular/http';
     SpeakerCardComponent,
     BreadcrumbComponent,
     WorkshopsComponent,
-    SessionsComponent
+    SessionsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

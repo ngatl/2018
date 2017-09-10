@@ -1,0 +1,43 @@
+@import "../../../variables";
+
+.article-container {
+  padding-top: 20px;
+  section.article {
+    width: 800px;
+    margin: auto auto;
+    .article-header {
+      font-size: 1.5em;
+      img {
+        max-width: 800px;
+        display: block;
+        margin: 20px auto;
+      }
+      .instructor {
+        font-style: italic;
+      }
+    }
+    .article-body {
+      margin-top: 5px;
+      margin-bottom: 30px;
+      line-height: 1.75em;
+    }
+  }
+}
+
+.blog-link {
+  color: $gray;
+  i {
+    color: $primary;
+    font-size: .65em;
+    margin-left: 10px;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.article-purchase {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

@@ -44,6 +44,30 @@ input {
   }
 }
 
+.normal-button {
+  margin-left: 20px;
+  &:hover {
+    text-decoration: none;
+    color: $primary;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+  border-radius: 25px;
+  color: $primary;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid $primary;
+  &[disabled] {
+    background-color: $medGray;
+    border-color: $lightGray;
+    cursor: not-allowed;
+  }
+}
 .red-button {
   &:hover {
     text-decoration: none;
