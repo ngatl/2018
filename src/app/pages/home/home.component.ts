@@ -46,9 +46,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.sponsors = [
+      {name: 'ADP', level: 'Gold', image: '/sponsors/adp_logo.svg'},
       {name: 'GitHub', level: 'Diversity Supporter', image: '/sponsors/GitHub_Logo.png'},
       {name: 'Robert Half Technology', level: 'Silver', image: '/sponsors/robert-half.gif'},
-      {name: 'ADP', level: 'Gold', image: '/sponsors/adp_logo.svg'}
+      {name: 'TSYS', level: 'Silver', image: '/sponsors/tsys.svg'},
+      {name: 'Valor Software', level: 'Gold', image: '/sponsors/valor_software.png'}
+
     ].sort(SpeakersService.sorting);
     this.community = [
       {
