@@ -46,6 +46,9 @@ section {
         }
         h3 {
           font-size: 22px;
+          @media only screen and (max-width: 768px) {
+            margin-bottom: 15px;
+          }
         }
       }
     }
@@ -59,7 +62,7 @@ section {
       margin-bottom: 35px;
     }
   }
-  .community{
+  .community {
     .card {
       .title {
         text-transform: none !important;
@@ -213,4 +216,8 @@ section {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
