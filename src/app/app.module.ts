@@ -3,6 +3,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+import { MdSidenavModule } from '@angular/material';
+
 import { AppComponent } from './app.component';
 import { routes } from './app-routing.module';
 import { RouterModule } from '@angular/router';
@@ -18,7 +20,6 @@ import {
 // Import Re-usable Components:
 import { PillButtonComponent } from '../components/components';
 import { FooterComponent } from './footer/footer.component';
-import { HeaderComponent } from './header/header.component';
 import { SpeakerCardComponent } from './speaker-card/speaker-card.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { SpeakersService } from './speakers.service';
@@ -40,7 +41,6 @@ import { BlogComponent } from './pages/blog/blog.component';
     SponsorsComponent,
     PillButtonComponent,
     FooterComponent,
-    HeaderComponent,
     SpeakerCardComponent,
     BreadcrumbComponent,
     WorkshopsComponent,
@@ -54,7 +54,8 @@ import { BlogComponent } from './pages/blog/blog.component';
     HttpClientModule,
     JsonpModule,
     RouterModule.forRoot(routes),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    MdSidenavModule
   ],
   providers: [ SpeakersService, WorkshopsService, SessionsService ],
   bootstrap: [ AppComponent ],

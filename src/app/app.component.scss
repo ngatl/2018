@@ -28,3 +28,140 @@ section {
   margin-bottom: 25px;
   border-radius: 50%;
 }
+
+header {
+  font-family: sans-serif;
+  .social {
+    color: $white;
+    height: 57px;
+    @media only screen and (max-width: 1000px) {
+      display: none;
+    }
+    @media only screen and (max-width: 768px) {
+      height: 30px;
+    }
+    background-color: $darkGray;
+    padding: 1% 0;
+
+    .contact {
+      padding: 0 20px;
+      border-right: 1px solid lightgrey;
+      border-left: 1px solid lightgray;
+      a, a:visited {
+        font-size: 14px;
+        color: $white;
+      }
+    }
+
+    .icons {
+      a, a:hover {
+        border-left: 1px solid $white;
+        text-decoration: none;
+        font-size: 13px;
+        color: $white;
+        padding: 0 15px;
+      }
+
+      a:last-child {
+        border-right: 1px solid $white;
+      }
+    }
+  }
+
+  .toggle-menu {
+    display: none;
+    @media only screen and (max-width: 1000px) {
+      font-size: 20px;
+      display: block;
+      padding: 10px 20px;
+    }
+  }
+  .primary-nav {
+    height: 100px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    @media only screen and (max-width: 1200px) {
+      height: 150px;
+    }
+    @media only screen and (max-width: 1000px) {
+      display: none;
+    }
+    .main-logo {
+      img {
+        height: 76px;
+      }
+    }
+    text-align: center;
+    nav {
+      height: 75px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      a,
+      a:visited {
+        padding: 0 20px;
+        display: inline-block;
+        color: $darkGray;
+      }
+    }
+
+    a:hover {
+      color: $primary;
+      cursor: pointer;
+    }
+  }
+}
+
+md-sidenav {
+  @media only screen and (min-width: 1001px) {
+    display: none;
+  }
+  pill-button {
+    margin: 15px;
+    display: block;
+  }
+  .social {
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+    a {
+      &.left {
+        position: absolute;
+        left: 30px;
+      }
+      &.right {
+        position: absolute;
+        right: 35px;
+      }
+      color: $darkGray;
+      font-size: 1.25em;
+      &:hover {
+        color: $primary;
+        cursor: pointer;
+      }
+    }
+  }
+  .main-logo {
+    width: 100%;
+    text-align: center;
+    display: block;
+    img {
+      height: 76px;
+    }
+  }
+  .links {
+    a {
+      width: 200px;
+      padding: 20px 30px;
+      display: block;
+      color: $darkGray;
+      margin-bottom: 15px;
+      &:hover {
+        color: $primary;
+        cursor: pointer;
+      }
+    }
+  }
+}
