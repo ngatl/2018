@@ -23,9 +23,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-`ng build --prod --build-optimizer --base-href 'http://ng-atl.org'`
-`cp CNAME dist/CNAME`
-`cd dist && ln -s index.html 404.html && cd ..`
+`npm run build-prod`
+`cp CNAME dist/CNAME && cd dist && ln -s index.html 404.html && cd ..`
 `ngh`
 
 ## Publish
