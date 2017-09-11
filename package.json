@@ -6,7 +6,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-prod": "ng build --prod --build-optimizer --base-href 'http://ng-atl.org'",
+    "prebuild-prod":"ng build --prod --build-optimizer --base-href 'http://ng-atl.org'",
+    "build-prod": "cp CNAME dist/CNAME && cd dist && ln -s index.html 404.html && cd ..",
+    "postbuild-prod":"ngh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

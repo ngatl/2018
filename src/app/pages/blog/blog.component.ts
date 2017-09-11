@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class BlogComponent {
   articles: any = [
     {
+      date: 'Aug. 7',
       title: 'NgAtlanta Kicks Off This January',
       description: 'Technology, Inclusivity, and Diversity — The first Angular conference focused on people first.',
       link: 'https://medium.com/@NgAtlanta/ngatlanta-kicks-off-this-january-ab6489801fba',
