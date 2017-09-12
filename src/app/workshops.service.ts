@@ -123,6 +123,33 @@ export class WorkshopsService {
       ]
     },
     {
+      title: 'RxWorkshop',
+      length: '1 day',
+      day: 'Feb 3',
+      description: 'If you are developer looking to broaden your knowledge on RxJS, this is the workshop for you. With a 3-part course, consisting of videos, in-person interaction, and post workshop support, rxworkshop offers the best resources to learn about RxJS 5 and observables in-depth. \n' +
+      '\n' +
+      'Led by Ben Lesh, you will learn how to use RxJS to manage common and complex async scenarios within an application, how to go about composing streams when thinking in functional reactive programming, and how to build an application using HTTP and WebSockets to accomplish a real time streaming application.',
+      instructors: [
+        {
+          name: 'Ben Lesh'
+        },
+        {
+          name: 'Tracy Lee'
+        }
+      ]
+    },
+    {
+      title: 'Build a full-stack application with Colmena (API/Admin/Frontend)',
+      length: '1 day',
+      day: 'Jan 31',
+      description: 'Ever heard of Colmena? If not, you should definitely attend this workshop. Colmena is a modular platform for building full-stack applications in JavaScript. It consists of a REST API built on top of LoopBack and an Admin interface built in Angular. During this workshop we build our backend using Colmena. Next, we build a custom frontend, for example a website using Angular, a mobile app using Ionic or your own favorite framework. You will leave the workshop with a custom full-stack application, deployed to the cloud and ready to be extended.',
+      instructors: [
+        {
+          name: 'Bram Borggreve'
+        }
+      ]
+    },
+    {
       title: 'Code and Deploy Angular to the Azure Cloud',
       length: '1 day',
       day: 'Jan 31',
