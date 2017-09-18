@@ -60,6 +60,16 @@ export class SessionsService {
         }
       ]
     },
+    {
+      title: 'Beyond the Angular CLI',
+      description: 'The cat is out of the bag, people know about the Angular CLI and what it can do for them. But what is coming? What else can it do? What changes and improvements can I expect? Come learn what the Angular CLI can do and will evolve into.',
+      instructors: [
+        {
+          name: 'Mike Brocchi',
+          twitter: 'Brocco'
+        }
+      ]
+    },
     // {
     //   title: 'Emotionally Intelligent Engineering',
     //   description: '',

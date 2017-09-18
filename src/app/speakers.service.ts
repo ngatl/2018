@@ -35,7 +35,8 @@ export class SpeakersService {
       company: 'Rangle.io',
       social: {
         twitter: 'Brocco'
-      }
+      },
+      bio: 'Mike has worked on Angular tooling before the Angular CLI was even an alpha release. He continued his work beyond the CLI into the next iteration of Angular tooling: Angular DevKit. Mike is a GDE who contributes to the Angular CLI and is also an instructor at egghead. Mike is passionate about writing quality code as well as teaching. Outside of development, Mike loves to spend time with his wife and two daughters.'
     },
     {
       name: 'Aysegul Yonet',
