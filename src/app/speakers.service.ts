@@ -105,7 +105,8 @@ export class SpeakersService {
       company: 'CareerBuilder',
       social: {
         twitter: 'chawomack'
-      }
+      },
+      bio: 'Chaela is a native to Georgia. She attended Kennesaw State University and earned a bachelor\'s in computer science. Chaela has a love for JavaScript and currently works as a software engineer for Careerbuilder.'
     },
     {
       name: 'Sherry List',

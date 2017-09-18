@@ -84,6 +84,11 @@ export class HomeComponent implements OnInit {
         name: 'ATL-Angular',
         logo: '/community/AtlAngular.jpg',
         link: 'https://www.meetup.com/ATL-Angular/',
+      },
+      {
+        name: 'Front End Happy Hour',
+        logo: '/community/front-end-happy-hour.svg',
+        link: 'http://frontendhappyhour.com/',
       }
     ].sort(SpeakersService.sorting)
   }
