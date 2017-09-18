@@ -87,7 +87,7 @@ export class HomeComponent implements OnInit {
       },
       {
         name: 'Front End Happy Hour',
-        logo: '/community/front-end-happy-hour.svg',
+        logo: '/community/front-end-happy-hour.png',
         link: 'http://frontendhappyhour.com/',
       }
     ].sort(SpeakersService.sorting)
