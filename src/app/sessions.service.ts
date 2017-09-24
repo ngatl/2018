@@ -70,26 +70,56 @@ export class SessionsService {
         }
       ]
     },
-    // {
-    //   title: 'Emotionally Intelligent Engineering',
-    //   description: '',
-    //   instructors: [
-    //     {
-    //       name: 'April Wensel',
-    //       twitter: 'aprilwensel'
-    //     }
-    //   ]
-    // },
-    // {
-    //   title: '',
-    //   description: '',
-    //   instructors: [
-    //     {
-    //       name: 'Carmen Popoviciu',
-    //       twitter: 'CarmenPopoviciu'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Emotional Intelligence for Engineers',
+      description: 'Software may be built on machines, but it’s built by and for human beings. To be a highly effective software engineer, you must be able to navigate human interactions successfully. Emotional intelligence is the set of competencies that will allow you to do just that!\n' +
+      '\n' +
+      'Whether you’re discussing tradeoffs with your UX designer, convincing your team to adopt a new tool, or just reviewing someone’s code, interpersonal skills are essential.\n' +
+      '\n' +
+      'Emotional intelligence not only helps in our interactions with others; it also includes self-awareness, which allows us to motivate ourselves, manage stress, and avoid burnout.\n' +
+      '\n' +
+      'This talk will give you a better understanding of your own behavior, and it will also help you to cultivate empathy for the people on your team. You’ll learn a suite of practical tools that will empower you to prevent burnout, improve productivity, and tackle difficult conversations at work. You’ll leave inspired to apply these new skills to unlock your full potential as a developer and a human being!',
+      instructors: [
+        {
+          name: 'April Wensel',
+          twitter: 'aprilwensel'
+        }
+      ]
+    },
+    {
+      title: 'Make Your Mobile Apps Smarter with Machine Learning and NativeScript',
+      description: 'Do you ever wake up in a cold sweat, thinking that your mobile apps are both boring and stupid? When this happens, you start to question yourself, asking why your apps aren’t more empathetic, why they don’t respond better to your users’ needs. Even if you have built a performant app with a great UI, you can leverage new methods of adding machine learning to your apps to create a really useful and enticing mobile app experience. In this talk, you’ll learn some basics of machine learning and how to integrate it into your mobile app, first with some clever APIs, and then with custom trained models using TensorFlow. Come learn how to send your apps back to school and level up their innate ‘intelligence’!',
+      instructors: [
+        {
+          name: 'Jen Looper',
+          twitter: 'jenlooper'
+        }
+      ]
+    },
+    {
+      title: 'Breaking Down Reactive Forms',
+      description: 'Angular offers two options for building forms in your application: Reactive Forms and Template Driven Forms. In this talk, Bonnie will focus on reactive forms and explain the structure, data model, and setup. You’ll learn about the synchronous flow of data between the UI and server, covering how your component can quickly respond to user input how to update the server once your input is validated. You’ll also see how you can easily validate and test your reactive form. If you’re one of the many people leaning toward reactive style programming, you’re going to love reactive forms!',
+      instructors: [
+        {
+          name: 'Bonnie Brennan',
+          twitter: 'bonnster75'
+        },
+        {
+          name: 'Samantha Rhodes',
+          twitter: 'SamLee_509'
+        }
+      ]
+    },
+    {
+      title: 'Angular as strategy for collaboration and scale',
+      description: 'We on the Angular team care most about seeing the amazing things you all build with the platform. Because of this, we\'ve always focused on how teams can scale from the smallest prototypes to Google-scale consumer and enterprise applications. Come hear about how we\'ve designed for productive teams and eliminating development roadblocks at Google and throughout the open source world.',
+      instructors: [
+        {
+          name: 'Brad Green',
+          twitter: 'bradlygreen'
+        }
+      ]
+    },
     {
       title: 'Create web components and use them anywhere!',
       description: 'Many of us who work at larger companies often have to work with different teams, each using their web framework of choice. This means that projects often end up having a slightly different look and feel, as well as a lot of similar but non-sharable code.\n' +
@@ -121,6 +151,16 @@ export class SessionsService {
         {
           name: 'Tara Manicsic',
           twitter: 'tzmanics'
+        }
+      ]
+    },
+    {
+      title: 'Modern Testing Strategies for Reactive Applications',
+      description: 'In the world of Angular applications, testing is key to protect against regressions and validating functionality. With apps becoming more reactive with observables, testing how these independent pieces work becomes more important. Learn how these testing patterns and practices will ease the burden of testing your Angular application. From unit testing presentation components, integration testing with smart components, testing observables, state management and end-to-end tests, you can use these strategies to make your testing your reactive application easier and to simplify your testing triangle.',
+      instructors: [
+        {
+          name: 'Brandon Roberts',
+          twitter: 'brandontroberts'
         }
       ]
     },

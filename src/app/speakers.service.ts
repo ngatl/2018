@@ -53,7 +53,8 @@ export class SpeakersService {
       company: 'Google',
       social: {
         twitter: 'bradlygreen'
-      }
+      },
+      bio: 'Brad Green is an Engineering Director at Google where he manages that Angular Framework, Google\'s internal CRM suite, and other internal development productivity tools. He lives in Mountain View, CA with two kids and four chickens.'
     },
     {
       name: 'Tracy Lee',
@@ -174,7 +175,7 @@ export class SpeakersService {
         twitter: 'rkoutnik'
       },
       bio: 'Randall is a senior software engineer at Netflix, building tools that wake up other Netflixers when things break.  To offset that karma, he’s adopted a cat that wakes him up whenever a new JavaScript framework is released.  He doesn’t get much sleep.',
-      beyondBio:'4 of the 5 companies Randall\'s worked for no longer exist.  He hopes that\'s just a coincidence.'
+      beyondBio: '4 of the 5 companies Randall\'s worked for no longer exist.  He hopes that\'s just a coincidence.'
     },
     {
       name: 'Susan Goldblatt',
@@ -198,7 +199,7 @@ export class SpeakersService {
       name: 'Nathan Walker',
       image: '../assets/Nathan.jpg',
       company: 'nStudio LLC',
-      social:{
+      social: {
         twitter: 'wwwalkerrun'
       },
       bio: 'Nathan Ross Walker has enjoyed the opportunity to work in the web/mobile app development arena for over 15 years. His varied background rooted in the world of design and the arts provides him a unique approach to problem solving. Spending several years working across multiple industries including entertainment, audio/video production, manufacturing, b2b marketing, communications, and technology helped establish a focused sensibility with client needs.',
@@ -244,7 +245,8 @@ export class SpeakersService {
       company: '',
       social: {
         twitter: 'brandontroberts'
-      }
+      },
+      bio: 'Brandon is a Senior Software Engineer for Synapse Wireless building web applications for Industrial IoT. He is a natural born troubleshooter and is passionate about writing good documentation to help developers. He is a core contributor to the NgRx project.'
     },
     {
       name: 'Shmuela Jacobs',
@@ -276,7 +278,8 @@ export class SpeakersService {
       company: 'Progress',
       social: {
         twitter: 'jenlooper'
-      }
+      },
+      bio: 'Jen Looper is a Senior Developer Advocate at Progress with over 15 years\' experience as a web and mobile developer, specializing in creating cross-platform mobile apps. She\'s a multilingual multiculturalist with a passion for hardware hacking, mobile apps, machine learning and discovering new things every day. Visit her online at http://www.ladeezfirstmedia.com, or via Twitter @jenlooper.'
     },
     {
       name: 'John Papa',
