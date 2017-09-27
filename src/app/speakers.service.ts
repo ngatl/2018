@@ -270,7 +270,10 @@ export class SpeakersService {
       company: 'Stanley Black & Decker',
       social: {
         twitter: 'ratracegrad'
-      }
+      },
+      bio:'Jennifer Bland is a Senior Software Developer specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400″, published by IBM.\n' +
+      '\n' +
+      'She runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.'
     },
     {
       name: 'Jen Looper',

@@ -173,6 +173,18 @@ export class SessionsService {
           twitter: 'wwwalkerrun'
         }
       ]
+    },
+    {
+      title: 'Webpack - Your New BFF',
+      description: 'Webpack is JavaScript module bundler that has taken the world by storm, but a lack of great docs and wealth of boilerplates have led to many people using it, but not understand it.\n' +
+      '\n' +
+      'I will show you how to utilize Webpack for building out your applications. Once you see the magic available, Webpack will become your new BFF!',
+      instructors: [
+        {
+          name: 'Jennifer Bland',
+          twitter: 'ratracegrad'
+        }
+      ]
     }
   ];
 
