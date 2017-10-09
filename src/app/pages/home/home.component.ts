@@ -46,12 +46,48 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.sponsors = [
-      {name: 'ADP', level: 'Gold', image: '/sponsors/adp_logo.svg'},
-      {name: 'GitHub', level: 'Diversity Supporter', image: '/sponsors/GitHub_Logo.png'},
-      {name: 'Robert Half Technology', level: 'Silver', image: '/sponsors/robert-half.gif'},
-      {name: 'TSYS', level: 'Silver', image: '/sponsors/tsys.svg'},
-      {name: 'Progress', level: 'Gold', image: '/sponsors/progress.png'},
-      {name: 'Valor Software', level: 'Gold', image: '/sponsors/valor_software.png'}
+      {
+        name: 'ADP',
+        level: 'Gold',
+        image: '/sponsors/adp_logo.svg',
+        url: 'https://adp.com/'
+      },
+      {
+        name: 'GitHub',
+        level: 'Diversity Supporter',
+        image: '/sponsors/GitHub_Logo.png',
+        url: 'https://github.com/'
+      },
+      {
+        name: 'Robert Half Technology',
+        level: 'Silver',
+        image: '/sponsors/robert-half.gif',
+        url: 'https://www.roberthalf.com/jobs/technology'
+      },
+      {
+        name: 'TSYS',
+        level: 'Silver',
+        image: '/sponsors/tsys.svg',
+        url: 'http://www.tsys.com/'
+      },
+      {
+        name: 'Progress',
+        level: 'Gold',
+        image: '/sponsors/progress.png',
+        url: 'https://www.progress.com/'
+      },
+      {
+        name: 'Valor Software',
+        level: 'Gold',
+        image: '/sponsors/valor_software.png',
+        url: 'https://valor-software.com/#/'
+      },
+      {
+        name: 'Oasis Digital',
+        level: 'Silver',
+        image: '/sponsors/od_logo_print_hi.png',
+        url: 'https://oasisdigital.com/'
+      }
 
     ].sort(SpeakersService.sorting);
     this.community = [

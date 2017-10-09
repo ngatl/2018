@@ -85,21 +85,22 @@
         <div class="separator"></div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12 card" *ngFor="let sponsor of sponsors">
-        <div class="image-container">
-          <img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">
-        </div>
-        <div class="title">
-          {{ sponsor.name }}
-        </div>
-        <div class="caption">
-          {{ sponsor.level }}
-        </div>
+        <a [href]="sponsor.url" target="_blank">
+          <div class="image-container">
+            <img [src]="'../../assets/' + sponsor.image" alt="sponsor.name">
+          </div>
+          <div class="title">
+            {{ sponsor.name }}
+          </div>
+          <div class="caption">
+            {{ sponsor.level }}
+          </div>
+        </a>
       </div>
       <div class="col-12">
         <a class="red-button"
            href="https://docs.google.com/forms/d/e/1FAIpQLSc9wTvlB7q0XFeM9NLGb8r49ikwPcGr4mc-wRS41s2CoM-rYw/viewform?usp=sf_link"
            target="_blank">Become a Sponsor</a>
-        <!--<a class="red-button" routerLink="Sponsors">See All Sponsors</a>-->
       </div>
     </div>
   </div>
