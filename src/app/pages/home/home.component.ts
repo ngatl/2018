@@ -53,6 +53,12 @@ export class HomeComponent implements OnInit {
         url: 'https://adp.com/'
       },
       {
+        name: 'The Weather Company',
+        level: 'Diversity Advocate',
+        image: '/sponsors/weather.png',
+        url: 'http://www.theweathercompany.com/'
+      },
+      {
         name: 'GitHub',
         level: 'Diversity Supporter',
         image: '/sponsors/GitHub_Logo.png',
@@ -125,6 +131,16 @@ export class HomeComponent implements OnInit {
         name: 'Front End Happy Hour',
         logo: '/community/front-end-happy-hour.png',
         link: 'http://frontendhappyhour.com/',
+      },
+      {
+        name: 'Women Techmakers Atlanta',
+        logo: '/community/wtm-logo.png',
+        link: 'https://www.womentechmakers.com/',
+      },
+      {
+        name: 'Google Developer Group Atlanta',
+        logo: '/community/gdg-atl-logo.png',
+        link: 'https://www.meetup.com/gdg-atlanta/',
       }
     ].sort(SpeakersService.sorting)
   }
