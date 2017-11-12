@@ -87,16 +87,6 @@ export class SessionsService {
       ]
     },
     {
-      title: 'Make Your Mobile Apps Smarter with Machine Learning and NativeScript',
-      description: 'Do you ever wake up in a cold sweat, thinking that your mobile apps are both boring and stupid? When this happens, you start to question yourself, asking why your apps aren’t more empathetic, why they don’t respond better to your users’ needs. Even if you have built a performant app with a great UI, you can leverage new methods of adding machine learning to your apps to create a really useful and enticing mobile app experience. In this talk, you’ll learn some basics of machine learning and how to integrate it into your mobile app, first with some clever APIs, and then with custom trained models using TensorFlow. Come learn how to send your apps back to school and level up their innate ‘intelligence’!',
-      instructors: [
-        {
-          name: 'Jen Looper',
-          twitter: 'jenlooper'
-        }
-      ]
-    },
-    {
       title: 'Breaking Down Reactive Forms',
       description: 'Angular offers two options for building forms in your application: Reactive Forms and Template Driven Forms. In this talk, Bonnie will focus on reactive forms and explain the structure, data model, and setup. You’ll learn about the synchronous flow of data between the UI and server, covering how your component can quickly respond to user input how to update the server once your input is validated. You’ll also see how you can easily validate and test your reactive form. If you’re one of the many people leaning toward reactive style programming, you’re going to love reactive forms!',
       instructors: [

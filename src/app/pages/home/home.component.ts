@@ -59,6 +59,18 @@ export class HomeComponent implements OnInit {
         url: 'http://www.theweathercompany.com/'
       },
       {
+        name: 'WebJunto',
+        level: 'Gold & Diversity Supporter',
+        image: '/sponsors/webjunto.png',
+        url: 'http://webjunto.com/'
+      },
+      {
+        name: 'JetBrains',
+        level: 'Attendee Prizes',
+        image: '/sponsors/jetbrains.png',
+        url: 'https://www.jetbrains.com/'
+      },
+      {
         name: 'GitHub',
         level: 'Diversity Supporter',
         image: '/sponsors/GitHub_Logo.png',
@@ -116,6 +128,11 @@ export class HomeComponent implements OnInit {
         name: 'Atlanta JavaScript Meetup',
         logo: '/community/AtlJS.png',
         link: 'https://www.meetup.com/AtlantaJavaScript/',
+      },
+      {
+        name: 'Angular Academy',
+        logo: '/community/AngularAcademy.png',
+        link: 'https://www.angularacademy.ca',
       },
       {
         name: 'Women Who Code, Atlanta',

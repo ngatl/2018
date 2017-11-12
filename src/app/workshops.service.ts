@@ -4,17 +4,6 @@ import { Injectable } from '@angular/core';
 export class WorkshopsService {
   workshops = [
     {
-      title: 'Angular Workshop - Core Concepts, CLI, Components, Data Binding, Services',
-      length: '1 day',
-      day: 'Jan 30',
-      description: 'Do you want to get a jumpstart on developing with Angular so you can build robust Web applications? John Papa will help you learn how to work with data binding, build components and services, send and receive data to and from a server using Http, RxJS and observables, lazy load modules with routing, best practices you can employ in your applications, and much more! You\'ll also learn how to get up and running quickly with the Angular CLI. Bring your laptop, as you’ll be writing Angular code using what you learn in several hands-on exercises. What You’ll Learn: · ES2015/TypeScript core concepts · Getting started with the Angular CLI · Bootstrapping your application · The Role of Components · Using Decorators · Binding data to views · Input and output properties · Dependency injection and providers · Managing remote data calls using services · Http and RxJS Observables · Routing and page navigation · Lazy loading and route guards · Template-driven and reactive forms · Tips, tricks and best practices · More!',
-      instructors: [
-        {
-          name: 'John Papa'
-        }
-      ]
-    },
-    {
       title: 'Angular Workshop - RxJS/Observables, Http, Routing, Guards, Lazy Loading, Deploying',
       length: '1 day',
       day: 'Jan 31',
@@ -22,28 +11,6 @@ export class WorkshopsService {
       instructors: [
         {
           name: 'John Papa'
-        }
-      ]
-    },
-    {
-      title: 'Getting started with Universal Workshop',
-      length: '1 day',
-      day: 'Jan 31',
-      description: 'The creator of Angular Universal, PatrickJS, guides us as we create a project using Universal. Topics will include best practices, pitfalls, performance considerations to name a few. Along with invaluable instruction, students will have major insights into how Universal works.',
-      instructors: [
-        {
-          name: 'PatrickJS'
-        }
-      ]
-    },
-    {
-      title: 'GraphQL and Angular',
-      length: '1 day',
-      day: 'Jan 31',
-      description: 'GraphQL is on its way in and has proven itself a worthy solution to a component based app future. Scott Moss will guide students through getting started with GraphQL and Angular. Topics include libraries to use, typescript + graphql, testing, and much more.',
-      instructors: [
-        {
-          name: 'Scott Moss'
         }
       ]
     },
@@ -62,13 +29,10 @@ export class WorkshopsService {
       title: 'NativeScript',
       length: '2 days',
       day: 'Jan 30 - Jan 31',
-      description: 'Whether you and your team need to build a shared codebase from your web apps to your native mobile apps or just desire to share code between native iOS and Android apps, Nathan Walker, Jen Looper and Nitish Dayal will provide an in-depth look at NativeScript for Angular development. NativeScript is an open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.',
+      description: 'Whether you and your team need to build a shared codebase from your web apps to your native mobile apps or just desire to share code between native iOS and Android apps, Nathan Walker and Nitish Dayal will provide an in-depth look at NativeScript for Angular development. NativeScript is an open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.',
       instructors: [
         {
           name: 'Nathan Walker'
-        },
-        {
-          name: 'Jen Looper'
         },
         {
           name: 'Nitish Dayal'
@@ -86,17 +50,6 @@ export class WorkshopsService {
       instructors: [
         {
           name: 'Ryan Chenkie'
-        }
-      ]
-    },
-    {
-      title: 'Production Ready Angular',
-      length: '1 day',
-      day: 'Jan 30',
-      description: 'So you’ve built an Angular app before? When launching your app, there are many major considerations you have to think of with Angular. Things like AOT, Lazy loading, and CSS management all need attention when shipping to production. There are many approaches and pitfalls when figuring out a production strategy that may seem intimidating and sometimes confusing. PatrickJS will guide us through to the end, showing us the way to fast, performant Angular apps.',
-      instructors: [
-        {
-          name: 'PatrickJS'
         }
       ]
     },

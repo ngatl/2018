@@ -152,6 +152,29 @@ section {
     }
   }
 
+  .michio {
+    margin-top: 45px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $gray;
+    color: $white;
+    text-align: center;
+    h1 {
+      text-transform: uppercase;
+      font-size: 28px;
+    }
+    .michio-wrapper {
+      margin-top:15px;
+      margin-bottom: 15px;
+    }
+    .bio {
+      color: $lightGray;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+  }
+
   .email {
     height: 300px;
     background-color: $gray;
