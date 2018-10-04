@@ -5,7 +5,7 @@ export class SpeakersService {
   speakers: Array<any> = [
     {
       name: 'Simona Cotin',
-      image: '../assets/Simona.jpg',
+      image: 'assets/Simona.jpg',
       company: 'Microsoft',
       social: {
         twitter: 'simona_cotin'
@@ -13,7 +13,7 @@ export class SpeakersService {
     },
     {
       name: 'Michael Moss',
-      image: '../assets/michaelmoss.jpg',
+      image: 'assets/michaelmoss.jpg',
       company: 'OneSpeed',
       social: {
         twitter: 'realmike33'
@@ -23,7 +23,7 @@ export class SpeakersService {
     },
     {
       name: 'Erica Stanley',
-      image: '../assets/erica_stanley.jpg',
+      image: 'assets/erica_stanley.jpg',
       company: 'SalesLoft',
       social: {
         twitter: 'ericastanley'
@@ -31,7 +31,7 @@ export class SpeakersService {
     },
     {
       name: 'Mike Brocchi',
-      image: '../assets/Mike.jpg',
+      image: 'assets/Mike.jpg',
       company: 'Rangle.io',
       social: {
         twitter: 'Brocco'
@@ -40,7 +40,7 @@ export class SpeakersService {
     },
     {
       name: 'Aysegul Yonet',
-      image: '../assets/Aysegul.jpg',
+      image: 'assets/Aysegul.jpg',
       company: 'Nrwl',
       social: {
         twitter: 'AysSomething'
@@ -49,7 +49,7 @@ export class SpeakersService {
     },
     {
       name: 'Brad Green',
-      image: '../assets/Brad.jpg',
+      image: 'assets/Brad.jpg',
       company: 'Google',
       social: {
         twitter: 'bradlygreen'
@@ -58,7 +58,7 @@ export class SpeakersService {
     },
     {
       name: 'Tracy Lee',
-      image: '../assets/Tracy.jpg',
+      image: 'assets/Tracy.jpg',
       company: 'dotMedia',
       social: {
         twitter: 'ladyleet'
@@ -67,7 +67,7 @@ export class SpeakersService {
     },
     {
       name: 'Carmen Popoviciu',
-      image: '../assets/Carmen.jpg',
+      image: 'assets/Carmen.jpg',
       company: '',
       social: {
         twitter: 'CarmenPopoviciu'
@@ -77,7 +77,7 @@ export class SpeakersService {
     },
     {
       name: 'Tara Manicsic',
-      image: '../assets/Tara.jpg',
+      image: 'assets/Tara.jpg',
       company: 'Progress',
       social: {
         twitter: 'Tzmanics'
@@ -87,7 +87,7 @@ export class SpeakersService {
     },
     {
       name: 'Ryan Chenkie',
-      image: '../assets/Ryan.jpeg',
+      image: 'assets/Ryan.jpeg',
       company: 'Auth0',
       social: {
         twitter: 'ryanchenkie'
@@ -103,7 +103,7 @@ export class SpeakersService {
     },
     {
       name: 'Chaela Womack',
-      image: '../assets/Chaela.jpg',
+      image: 'assets/Chaela.jpg',
       company: 'CareerBuilder',
       social: {
         twitter: 'chawomack'
@@ -112,7 +112,7 @@ export class SpeakersService {
     },
     {
       name: 'Sherry List',
-      image: '../assets/Sherry.jpg',
+      image: 'assets/Sherry.jpg',
       company: 'Nordea',
       social: {
         twitter: 'sherrylist',
@@ -122,7 +122,7 @@ export class SpeakersService {
     },
     {
       name: 'Patrick Stapleton',
-      image: '../assets/Patrick.jpg',
+      image: 'assets/Patrick.jpg',
       company: 'OneSpeed',
       social: {
         twitter: 'gdi2290'
@@ -132,7 +132,7 @@ export class SpeakersService {
     },
     {
       name: 'Kim Crayton',
-      image: '../assets/KimCrayton.jpg',
+      image: 'assets/KimCrayton.jpg',
       company: 'Kim Crayton LLC',
       social: {
         twitter: 'KimCrayton1'
@@ -140,7 +140,7 @@ export class SpeakersService {
     },
     {
       name: 'Shai Reznik',
-      image: '../assets/Shai.jpg',
+      image: 'assets/Shai.jpg',
       company: 'HiRez.io',
       social: {
         twitter: 'shai_reznik'
@@ -151,7 +151,7 @@ export class SpeakersService {
     },
     {
       name: 'Samantha Rhodes',
-      image: '../assets/Samantha.jpg',
+      image: 'assets/Samantha.jpg',
       company: '',
       social: {
         twitter: 'SamLee_509'
@@ -160,7 +160,7 @@ export class SpeakersService {
     },
     {
       name: 'April Wensel',
-      image: '../assets/April.jpg',
+      image: 'assets/April.jpg',
       company: 'Compassionate Coding',
       social: {
         twitter: 'aprilwensel'
@@ -169,7 +169,7 @@ export class SpeakersService {
     },
     {
       name: 'Randall Koutnik',
-      image: '../assets/Randall.jpg',
+      image: 'assets/Randall.jpg',
       company: 'Netflix',
       social: {
         twitter: 'rkoutnik'
@@ -179,7 +179,7 @@ export class SpeakersService {
     },
     {
       name: 'Susan Goldblatt',
-      image: '../assets/Susan.jpg',
+      image: 'assets/Susan.jpg',
       company: 'Google',
       social: {
         twitter: 'thatgoldblatt'
@@ -187,7 +187,7 @@ export class SpeakersService {
     },
     {
       name: 'Kapunahele Wong',
-      image: '../assets/Kapunahele.jpg',
+      image: 'assets/Kapunahele.jpg',
       company: '',
       social: {
         twitter: 'kapunahele'
@@ -197,7 +197,7 @@ export class SpeakersService {
     },
     {
       name: 'Nathan Walker',
-      image: '../assets/Nathan.jpg',
+      image: 'assets/Nathan.jpg',
       company: 'nStudio LLC',
       social: {
         twitter: 'wwwalkerrun'
@@ -207,7 +207,7 @@ export class SpeakersService {
     },
     {
       name: 'Dmitriy Shekhovtsov',
-      image: '../assets/Dmitri.jpg',
+      image: 'assets/Dmitri.jpg',
       company: 'Valor Software',
       social: {
         twitter: 'valorkin'
@@ -215,7 +215,7 @@ export class SpeakersService {
     },
     {
       name: 'Bonnie Brennan',
-      image: '../assets/Bonnie.jpg',
+      image: 'assets/Bonnie.jpg',
       company: '',
       social: {
         twitter: 'bonnster75'
@@ -224,7 +224,7 @@ export class SpeakersService {
     },
     {
       name: 'Deanna Rowe',
-      image: '../assets/Deanna.jpg',
+      image: 'assets/Deanna.jpg',
       company: 'Google',
       social: {
         twitter: 'djrowe9'
@@ -232,7 +232,7 @@ export class SpeakersService {
     },
     {
       name: 'Aimee Knight',
-      image: '../assets/Aimee.jpg',
+      image: 'assets/Aimee.jpg',
       company: 'Warner Bros',
       social: {
         twitter: 'Aimee_Knight'
@@ -241,7 +241,7 @@ export class SpeakersService {
     },
     {
       name: 'Brandon Roberts',
-      image: '../assets/Brandon.jpg',
+      image: 'assets/Brandon.jpg',
       company: '',
       social: {
         twitter: 'brandontroberts'
@@ -250,7 +250,7 @@ export class SpeakersService {
     },
     {
       name: 'Shmuela Jacobs',
-      image: '../assets/Shmuela.jpg',
+      image: 'assets/Shmuela.jpg',
       company: '',
       social: {
         twitter: 'ShmuelaJ'
@@ -258,7 +258,7 @@ export class SpeakersService {
     },
     {
       name: 'Jules Kremer',
-      image: '../assets/Jules.jpg',
+      image: 'assets/Jules.jpg',
       company: 'Google',
       social: {
         twitter: 'jules_kremer'
@@ -266,7 +266,7 @@ export class SpeakersService {
     },
     {
       name: 'Jennifer Bland',
-      image: '../assets/JenniferBland.jpg',
+      image: 'assets/JenniferBland.jpg',
       company: 'Stanley Black & Decker',
       social: {
         twitter: 'ratracegrad'
@@ -277,7 +277,7 @@ export class SpeakersService {
     },
     {
       name: 'Jen Looper',
-      image: '../assets/Jen.jpg',
+      image: 'assets/Jen.jpg',
       company: 'Progress',
       social: {
         twitter: 'jenlooper'
@@ -286,7 +286,7 @@ export class SpeakersService {
     },
     {
       name: 'John Papa',
-      image: '../assets/John.jpg',
+      image: 'assets/John.jpg',
       company: 'Microsoft',
       social: {
         twitter: 'John_Papa',
@@ -297,7 +297,7 @@ export class SpeakersService {
     },
     {
       name: 'Meredith Bayne',
-      image: '../assets/Meredith.jpg',
+      image: 'assets/Meredith.jpg',
       company: '',
       social: {
         twitter: 'meredithjordyn'
@@ -305,7 +305,7 @@ export class SpeakersService {
     },
     {
       name: 'Rachita Joshi',
-      image: '../assets/Rachita.jpg',
+      image: 'assets/Rachita.jpg',
       company: '',
       social: {
         twitter: 'way2rach'
@@ -313,7 +313,7 @@ export class SpeakersService {
     },
     {
       name: 'Scott Hanselman',
-      image: '../assets/Scott.jpg',
+      image: 'assets/Scott.jpg',
       company: 'Microsoft',
       social: {
         twitter: 'shanselman'
@@ -322,7 +322,7 @@ export class SpeakersService {
     },
     {
       name: 'John McSwain',
-      image: '../assets/JohnMcSwain.jpg',
+      image: 'assets/JohnMcSwain.jpg',
       company: 'Georgia Tech Professional Ed.',
       social: {
         twitter: 'johnmcswain'
@@ -330,7 +330,7 @@ export class SpeakersService {
     },
     {
       name: 'Wylesha Rachell',
-      image: '../assets/Wylesha.jpg',
+      image: 'assets/Wylesha.jpg',
       company: 'Turner Broadcasting | NBA.com',
       social: {
         twitter: 'WyleshaRachell'
@@ -339,7 +339,7 @@ export class SpeakersService {
     },
     {
       name: 'Alyssa Nicoll',
-      image: '../assets/Alyssa.jpg',
+      image: 'assets/Alyssa.jpg',
       company: '',
       social: {
         twitter: 'AlyssaNicoll'

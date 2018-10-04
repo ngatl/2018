@@ -10,7 +10,7 @@
   <section class="article" *ngFor="let article of articles">
     <div class="article-header">
       <a [href]="article.link" target="_blank" class="blog-link">
-        <img [src]="'../../assets/' + article.img">
+        <img [src]="'assets/' + article.img">
         <span class="title">{{article.title}}</span><span class="date"> - {{article.date}}</span>
         <i class="fa fa-link"></i>
       </a>
